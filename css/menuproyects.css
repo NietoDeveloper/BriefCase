@@ -1,0 +1,175 @@
+.botones-proyects {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.botones-proyects button {
+  margin-top: 30px;
+  height: 70px;
+  width: 120px;
+  cursor: pointer;
+  background-color: gold;
+  text-align: center;
+  border-color: blue;
+  border-radius: 10px;
+}
+
+@media (min-width: 720px) {
+  .botones-proyects button {
+    height: 80px;
+    width: 130px;
+  }
+}
+
+.botones-proyects button h3 {
+  align-items: center;
+  color: rgb(112, 4, 4);
+  font-size: 20px;
+}
+
+.botones-proyects button h3:hover {
+  font-size: 30px;
+}
+
+.botones-proyects button:hover {
+  transition-delay: 0.1s;
+  height: 105px;
+  width: 150px;
+  border-color: rgb(112, 4, 4);
+}
+
+.neon2 {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.003s;
+}
+
+@media (min-width: 340px) {
+  .neon2 {
+    font-size: 30px;
+  }
+}
+
+.neon2:hover {
+  background: blue;
+  box-shadow: 0 0 40px blue, 0 0 40px rgb(33, 33, 247),
+    0 0 70px rgb(69, 69, 241);
+  transition-delay: 0.2s;
+}
+
+.neon2 span {
+  position: absolute;
+  display: block;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(90deg, transparent, blue);
+}
+
+.neon2:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+.neon2 span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, blue);
+}
+
+.neon2:hover span:nth-child(2) {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.05s;
+}
+
+.neon2 span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, blue);
+}
+
+.neon2:hover span:nth-child(3) {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.neon2 span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(270deg, transparent, blue);
+}
+
+.neon2:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 0.9s;
+  transition-delay: 0.5s;
+}
+
+.proyects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.proyects .proyect {
+  flex: 0 0 calc(25% - 10px);
+  border: 2px solid blue;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: blue;
+  background-color: gold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.proyects .proyect h2 {
+  color: blue;
+  font-size: 27px;
+  margin-top: 2px;
+}
+
+.proyects .proyect h3 {
+  font-size: 20px;
+  margin-top: 2px;
+  color: rgb(112, 4, 4);
+}
+
+.proyects .proyect p {
+  font-size: 17px;
+  color: blue;
+  font-family: var(--parrafos);
+}
+
+.proyects .proyect img {
+  margin-top: 5px;
+}
+
+.proyects .proyect img:hover {
+  margin-top: 15px;
+  transform: translateY(-10%);
+  box-shadow: 10px 10px 20px black;
+  transition: all 300ms ease-out;
+  width: 230px;
+  height: 150px;
+}

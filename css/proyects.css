@@ -1,0 +1,157 @@
+:root {
+    --gold: gold;
+    --scarlet: rgb(112, 4, 4);
+    --gainsboro: gainsboro;
+    --blue: blue;
+    --oscuro: #000;
+    --titulos: 'Arima Madurai', cursive;
+    --parrafos: 'Mulish', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+
+html {
+    box-sizing: border-box;
+    margin: none;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--titulos);
+}
+
+.p, a  {
+    font-family: var(--parrafos);
+}
+
+.foto {
+    max-width: 100%;
+}
+
+.gold {
+    color: var(--gold);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.scarlet {
+    color: var(--scarlet)
+}
+
+.ocultar {
+    display: none;
+}
+
+.contenido-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.texto-encabezado {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-encabezado h2 {
+    color: var(--blue);
+    font-size: 46px;
+    text-align: center;
+    margin: 0px 1px;
+}
+
+@media(min-width: 700px) {
+    .texto-encabezado h2 {
+        font-size: 70px;
+    }
+}
+
+.texto-encabezado a {
+    color: var(--scarlet);
+    font-size: 30px;
+    margin-top: 100px;
+    padding: 10px 4px;
+}
+
+@media(min-width: 700px) {
+    .texto-encabezado a {
+        font-size: 50px;
+    }
+}
+
+
+.change {
+    cursor: pointer;
+    perspective: 210px;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-change {
+
+    --btn-height: 200px;
+    --half-btn-height: calc(var(--btn-height) / 2);
+    text-align: center;
+    height: var(--btn-height);
+    width: 320px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms ease-out;
+
+    transform: translateZ(calc(-1 * var(--half-btn-height)));
+}
+
+.btn-change:hover {
+    transform: rotateX(-90deg) translateY(var(--half-btn-height));
+}
+
+.side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    backface-visibility: hidden;
+}
+
+.default-side {
+
+    background-color: var(--gold);
+    color: var(--blue);
+    transform: translateZ(var(--half-btn-height));
+
+}
+
+.hover-side {
+    color: gold;
+    background-color: var(--scarlet);
+    transform: rotateX(90deg) translateZ(var(--half-btn-height));
+}

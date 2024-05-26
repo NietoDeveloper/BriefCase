@@ -1,0 +1,39 @@
+.clients {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.client {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 210px;
+  border-radius: 15px;
+  background-color: rgb(112, 4, 4);
+  text-align: center;
+  align-items: center;
+  transform: rotateZ('angle');
+}
+.client h2 {
+  color: blue;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.client h3 {
+  font-size: 20px;
+  margin-top: 1px;
+}
+.client p {
+  font-size: 16px;
+  margin-top: 1px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.client img {
+width: 200px;
+height: 130px;
+}

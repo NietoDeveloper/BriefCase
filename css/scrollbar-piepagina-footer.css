@@ -1,0 +1,38 @@
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: hsl(222, 7%, 28%);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+  }
+  
+  .pie-pagina {
+    font-size: 13px;
+    background-color: rgb(20, 20, 20);
+    padding: 1rem;
+    color: gainsboro;
+    text-align: center;
+    font-family: var(--parrafos);
+  }
+  
+  @media (min-width: 1800px) {
+    .contenedor-piepagina {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--gainsboro);
+    padding: 2rem;
+    font-size: 15px;
+    font-family: var(--titulos);
+  }
