@@ -1,0 +1,30 @@
+
+
+@keyframes spin {
+	0% { transform: rotateY( 0deg ); }
+	100% { transform: rotateY( 360deg ); }
+}
+
+body {
+	perspective: 3000px;
+	perspective-origin: 0 20%;
+}
+
+.tree {
+	margin: 0 auto;
+	position: relative;
+	animation: spin 18s infinite linear;
+	transform-origin: 50% 0;
+	transform-style: preserve-3d;
+}
+
+.tree * {
+	position: absolute;
+	transform-origin: 0 0;
+}
+
+
+
+
+
+

@@ -109,6 +109,7 @@ h3 {
 .container {
     background-color: silver;
     margin: 50px auto;
+    margin-top: 80px;
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
