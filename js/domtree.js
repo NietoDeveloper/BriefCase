@@ -1,6 +1,6 @@
 const width = 300;
 const height = 500;
-const quantity = 130;
+const quantity = 180;
 const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio','Back End', 'Front End', 'Full Stack', 'App`s', 'Web Sites', 'VS Code', 'Vite', 'checkbox' ];
 const greetings = [ 'HTML','Java Script','PostgreSQL','Phyton','CSS','My SQl','SQL','React','GIT','Node JS' ];
 
