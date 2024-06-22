@@ -7,7 +7,7 @@
 
 body {
 	perspective: 3000px;
-	perspective-origin: 0 20%;
+	
 }
 
 .tree {
@@ -21,6 +21,7 @@ body {
 .tree * {
 	position: absolute;
 	transform-origin: 0 0;
+	margin-bottom: 10px;
 }
 
 

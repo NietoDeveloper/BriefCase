@@ -109,7 +109,7 @@ h3 {
 .container {
     background-color: silver;
     margin: 50px auto;
-    margin-top: 80px;
+    margin-top: 40px;
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
@@ -228,3 +228,34 @@ h3 {
     }
 }
 
+.proyects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  
+  .proyects .proyect {
+    flex: 0 0 calc(25% - 2px);
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: gold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .proyects .proyect i {
+    font-size: 60px;
+    margin-top: 5px;
+    color: blue;
+  }
+  @media (min-width: 740px) {
+    .proyects .proyect i  {
+      font-size: 90px;
+    }
+  }
