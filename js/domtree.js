@@ -1,7 +1,7 @@
 const width = 300;
 const height = 500;
-const quantity = 170;
-const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio','Back End','PostgreSQL', 'Front End', 'Full Stack', 'App`s', 'Web Sites', 'VS Code', 'Vite', 'checkbox' ];
+const quantity = 190;
+const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio','Back End','PostgreSQL', 'Front End', 'Full Stack', 'App`s', 'Web Sites', 'VS Code', 'Vite', 'checkbox','PHP','Docker','AWS' ];
 const greetings = [ 'HTML','Java Script','Phyton','CSS','My SQl','SQL','React','GIT','Node JS' ];
 
 let tree = document.querySelector( '.tree' ),
