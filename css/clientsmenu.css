@@ -1,7 +1,7 @@
 .clients {
   display: flex;
   flex-wrap:wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -11,8 +11,8 @@
   margin-left: 20px;
   margin-right: 10px;
   width: 210px;
-  border-radius: 15px;
-  background-color: rgb(112, 4, 4);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   align-items: center;
   transform: rotateZ('angle');
@@ -20,7 +20,7 @@
 .client h2 {
   color: blue;
   font-size: 26px;
-  margin-top: 5px;
+  margin-top:15px;
   margin-bottom: 5px;
 }
 .client h3 {
@@ -28,12 +28,11 @@
   margin-top: 1px;
 }
 .client p {
-  font-size: 16px;
-  margin-top: 1px;
+  font-size: 18px;
   margin-left: 8px;
   margin-right: 8px;
 }
 .client img {
 width: 200px;
-height: 130px;
+height: 140px;
 }
