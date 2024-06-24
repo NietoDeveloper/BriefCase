@@ -1,21 +1,22 @@
 .clients {
   display: flex;
   flex-wrap:wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 .client {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 30px;
   margin-left: 20px;
-  margin-right: 10px;
+  margin-right: 15px;
   width: 210px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   text-align: center;
   align-items: center;
-  transform: rotateZ('angle');
+}
+.client:hover {
+
 }
 .client h2 {
   color: blue;
@@ -35,4 +36,8 @@
 .client img {
 width: 200px;
 height: 140px;
+}
+.client img:hover {
+  width: 210px;
+  height: 150px;
 }
