@@ -59,7 +59,7 @@ p {
   font-size: 40px;
   color: var(--scarlet);
   position: absolute;
-  right: 5px;
+  right: 15px;
   top: 0;
   user-select: none;
 }
