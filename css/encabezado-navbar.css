@@ -59,7 +59,7 @@ p {
   font-size: 40px;
   color: var(--scarlet);
   position: absolute;
-  right: 15px;
+  right: 5px;
   top: 0;
   user-select: none;
 }
@@ -193,7 +193,7 @@ p {
   text-decoration: none;
   font-size: 23px;
   padding: 18px;
-  padding-left: 10px;
+  padding-left: 1px;
   display: block;
   transition: color 0.1s ease-in-out;
   text-align: center;
@@ -219,12 +219,12 @@ p {
 
 .navegacion {
   position: absolute;
-  top: 35px;
+  top: 15px;
   right: 0;
   bottom: 0;
-  height: 400px;
+  height: 500px;
   width: 20%;
-  padding: 60px 50px;
+  padding: 23px 50px;
   backdrop-filter: blur(25px);
   background-color: transparent;
   animation: desplazamiento 0.45s ease-in-out;
@@ -236,7 +236,7 @@ p {
   width: 40px;
   height: 4px;
   margin-bottom: 6px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 @media (min-width: 679px) {
