@@ -36,6 +36,7 @@ const cerrarMenu = (boton, overlay) => {
     boton.remove();
   });
 
+  // biome-ignore lint/complexity/useArrowFunction: <explanation>
   overlay.onclick = function () {
     overlay.remove();
     navegacion.classList.add("ocultar");
@@ -45,7 +46,9 @@ const cerrarMenu = (boton, overlay) => {
 const proyects = () => {
   let proyectsArreglo = [];
   const proyects = document.querySelectorAll(".proyect");
+  // biome-ignore lint/complexity/noForEach: <explanation>
   proyects.forEach(
+    // biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
     (proyect) => (proyectsArreglo = [...proyectsArreglo, proyect])
   );
   const js = proyectsArreglo.filter(
@@ -65,22 +68,27 @@ const proyects = () => {
 const mostrarProyects = (js, react, nodejs, phyton, todos) => {
   btnJs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
+    // biome-ignore lint/complexity/noForEach: <explanation>
     js.forEach((js) => contenedorProyects.appendChild(js));
   });
   btnReact.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
+    // biome-ignore lint/complexity/noForEach: <explanation>
     react.forEach((react) => contenedorProyects.appendChild(react));
   });
   btnNodejs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
+    // biome-ignore lint/complexity/noForEach: <explanation>
     nodejs.forEach((nodejs) => contenedorProyects.appendChild(nodejs));
   });
   btnPhyton.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
+    // biome-ignore lint/complexity/noForEach: <explanation>
     phyton.forEach((phyton) => contenedorProyects.appendChild(phyton));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
+    // biome-ignore lint/complexity/noForEach: <explanation>
     todos.forEach((todo) => contenedorProyects.appendChild(todo));
   });
 };
