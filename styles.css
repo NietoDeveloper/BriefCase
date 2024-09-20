@@ -224,9 +224,10 @@ a span:nth-child(1) {
 }
 
 .welcome {
-  margin-top: 700px;
+  margin-top: 850px;
   align-items: center;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .welcome h1 {
@@ -236,9 +237,9 @@ a span:nth-child(1) {
 
 .texto-nosotros .bienvenida {
   font-size: 32px;
-  color: var(--blue);
+  color: var(--scarlet);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 140px;
 }
 
 @media (min-width: 666px) {
@@ -256,6 +257,7 @@ a span:nth-child(1) {
 .texto-nosotros h3 {
   font-size: 20px;
   text-align: center;
+  color: gold;
 }
 
 @media (min-width: 700px) {
