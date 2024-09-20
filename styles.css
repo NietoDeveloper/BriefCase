@@ -223,11 +223,22 @@ a span:nth-child(1) {
   transition-delay: 0.75s;
 }
 
+.welcome {
+  margin-top: 700px;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 30px;
+  color: gold;
+}
+
 .texto-nosotros .bienvenida {
   font-size: 32px;
   color: var(--blue);
   text-align: center;
-  margin-top: 300px;
+  margin-top: 50px;
 }
 
 @media (min-width: 666px) {
@@ -239,19 +250,6 @@ a span:nth-child(1) {
 @media (min-width: 996px) {
   .texto-nosotros .bienvenida {
     font-size: 40px;
-  }
-}
-
-.texto-nosotros h1 {
-  margin-top: 1000px;
-  font-size: 55px;
-  text-align: center;
-  color: gainsboro;
-}
-
-@media (min-width: 666px) {
-  .texto-nosotros h1 {
-    font-size: 70px;
   }
 }
 
