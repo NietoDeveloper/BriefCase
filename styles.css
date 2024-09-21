@@ -141,12 +141,12 @@ p, a {
   flex-wrap:wrap;
   justify-content: space-around;
   align-items: center;
-
+  margin-top: 150px;
+  margin-bottom: 20px;
 }
 video {
-  width: 265px;
+  width: 275px;
   height: 520px;
-  margin-top: 60px;
 }
 
 .neon {
