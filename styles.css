@@ -138,6 +138,7 @@ p, a {
 video {
   width: 100%;
   max-height: 100%;
+  margin-top: 150px;
 }
 
 .neon {
@@ -223,23 +224,14 @@ a span:nth-child(1) {
   transition-delay: 0.75s;
 }
 
-.welcome {
+.examples {
   margin-top: 850px;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.welcome h1 {
-  font-size: 30px;
-  color: gold;
 }
 
 .texto-nosotros .bienvenida {
   font-size: 32px;
-  color: var(--scarlet);
+  color: gainsboro;
   text-align: center;
-  margin-top: 140px;
 }
 
 @media (min-width: 666px) {
@@ -284,6 +276,7 @@ a span:nth-child(1) {
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  margin-top: 100px;
 }
 
 @media screen and (min-width: 440px) {
