@@ -19,7 +19,7 @@
   right: 0;
   background-color: rgba(17, 16, 39, 0.5);
   z-index: 4;
-  height: 110%;
+  height:585%;
 }
 
 @keyframes desplazamiento {
@@ -142,10 +142,14 @@
   padding: 18px;
   padding-left: 1px;
   display: block;
-  transition: color 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
   text-align: center;
+  color: gainsboro;
+  margin-top: 16px;
 }
-
+.navegacion a:hover {
+  font-size: 25px;
+}
 @media (min-width: 1768px) {
   .navegacion a {
     text-align: left;
@@ -166,13 +170,13 @@
 
 .navegacion {
   position: absolute;
-  top: 15px;
+  top: 0px;
   right: 0;
   bottom: 0;
-  height: 500px;
-  width: 35%;
+  height: 750px;
+  width: 25%;
   padding: 23px 50px;
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(20px);
   background-color: transparent;
   animation: desplazamiento 0.45s ease-in-out;
 }
@@ -183,7 +187,8 @@
   width: 40px;
   height: 4px;
   margin-bottom: 5px;
-  margin-right: 20px;
+  margin-right: 25px;
+  cursor: pointer;
 }
 
 @media (min-width: 679px) {
@@ -196,5 +201,8 @@
 .hamburguesa:hover {
   cursor: pointer;
   transform: rotate(90deg);
-  transition: 0.4s;
+  transition: 0.2s;
+  margin-right: 35px;
+  margin-bottom: 8px;
+  margin-top: 25px;
 }

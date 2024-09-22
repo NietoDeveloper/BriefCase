@@ -106,9 +106,17 @@ p, a {
 
 .texto-encabezado a {
   color: gainsboro;
-  font-size: 28px;
+  font-size: 26px;
   padding: 10px 4px;
   margin-top: 60px;
+  border: 2px solid gainsboro;
+}
+.texto-encabezado a:hover {
+  color: gainsboro;
+  font-size: 30px;
+  padding: 10px 4px;
+  margin-top: 60px;
+  border: 2px solid gainsboro;
 }
 
 @media (min-width: 600px) {
@@ -181,7 +189,7 @@ a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
-  height: 10px;
+  height: 130px;
   background: linear-gradient(90deg, transparent, #2196f3);
 }
 
