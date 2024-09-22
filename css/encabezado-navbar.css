@@ -6,7 +6,7 @@
   font-size: 40px;
   color: var(--scarlet);
   position: absolute;
-  right: 15px;
+  right: 25px;
   top: 0;
   user-select: none;
 }
@@ -89,7 +89,7 @@
 .contenedor-navegacion {
   background-color: var(--oscuro);
   position: relative;
-  z-index: 4;
+  z-index: 5;
 }
 
 .contenido-navegacion {
@@ -105,7 +105,7 @@
 
 .logo h2 {
   font-size: 32px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 @media (min-width: 600px) {
@@ -182,7 +182,7 @@
   display: block;
   width: 40px;
   height: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   margin-right: 20px;
 }
 
