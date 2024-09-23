@@ -184,9 +184,9 @@
 .hamburguesa span {
   background-color: var(--scarlet);
   display: block;
-  width: 40px;
+  width: 45px;
   height: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   margin-right: 30px;
   cursor: pointer;
 }
@@ -194,7 +194,7 @@
 @media (min-width: 679px) {
   .hamburguesa span {
     width: 46px;
-    margin-right: 20px;
+    margin-right: 25px;
   }
 }
 
@@ -204,5 +204,5 @@
   transition: 0.2s;
   margin-right: 40px;
   margin-bottom: 8px;
-  margin-top: 25px;
+  margin-top: 40px;
 }
