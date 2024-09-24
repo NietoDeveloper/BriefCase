@@ -75,42 +75,52 @@ p, a {
 
 .texto-encabezado h2 {
   color: var(--gold);
-  font-size: 40px;
+  font-size: 38px;
   text-align: center;
 }
 
 @media (min-width: 600px) {
   .texto-encabezado h2 {
-    font-size: 48px;
+    font-size: 40px;
   }
 }
 
 @media (min-width: 800px) {
   .texto-encabezado h2 {
-    font-size: 51px;
+    font-size: 44px;
   }
 }
 
 @media (min-width: 999px) {
   .texto-encabezado h2 {
-    font-size: 55px;
+    font-size: 46px;
   }
 }
 
 @media (min-width: 1100px) {
   .texto-encabezado h2 {
     margin-left: 30px;
-    font-size: 65px;
+    font-size: 48px;
   }
 }
 
 .buttons-header {
-  margin-top: 420px;
+  margin-top: 410px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   object-fit: contain;
+}
+@media (min-width: 550px) {
+  .buttons-header {
+    margin-top: 380px;
+  }
+}
+@media (min-width: 800px) {
+  .buttons-header {
+    margin-top: 340px;
+  }
 }
 
 .buttons-header a {
@@ -153,14 +163,16 @@ p, a {
 .videos {
   display: flex;
   flex-wrap:wrap;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin-top: 150px;
   margin-bottom: 60px;
 }
 video {
-  width: 275px;
+  width: 290px;
   height: 520px;
+  margin-bottom: 30px;
 }
 
 .neon {
