@@ -104,38 +104,47 @@ p, a {
   }
 }
 
-.texto-encabezado a {
+.buttons-header {
+  margin-top: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.buttons-header a {
   color: gainsboro;
   font-size: 26px;
   padding: 0px 20px;
-  margin-top: 100px;
   border: 2px solid gainsboro;
+  margin-bottom: 120px;
 }
-.texto-encabezado a:hover {
+.buttons-header a:hover {
   color: gainsboro;
   border: 2px solid gainsboro;
 }
 
 @media (min-width: 600px) {
-  .texto-encabezado a {
+  .buttons-header a {
     font-size: 28px;
   }
 }
 
 @media (min-width: 800px) {
-  .texto-encabezado a {
+  .buttons-header a {
     font-size: 32px;
   }
 }
 
 @media (min-width: 999px) {
-  .texto-encabezado a {
+  .buttons-header a {
     font-size: 36px;
   }
 }
 
 @media (min-width: 1100px) {
-  .texto-encabezado a {
+  .buttons-header a {
     font-size: 40px;
   }
 }
@@ -237,7 +246,7 @@ a span:nth-child(1) {
 }
 
 .examples {
-  margin-top: 900px;
+  margin-top: 100px;
 }
 
 .texto-nosotros .bienvenida {
