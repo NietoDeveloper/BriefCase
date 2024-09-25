@@ -59,32 +59,33 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: rgb(112, 4, 4);
+  color: blue;
   background: black;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: rgb(112, 4, 4);
+  color: gold;
   transform: rotate(90deg);
 }
 .logo {
   height: 40px;
 }
 .links a {
-  color: rgb(112, 4, 4);
-  font-size: 1rem;
+  color: blue;
+  font-size: 18px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 5px 15px;
   transition: var(--transition);
 }
 .links a:hover {
   background: blue;
-  color: var(--clr-primary-5);
-  padding-left: 1.5rem;
+  color: gold;
+  font-size: 21px;
+  border-radius: 10px;
 }
 .social-icons {
   display: none;
@@ -97,7 +98,7 @@ nav {
 }
 /* Toggle class */
 .show-links {
-  height: 18rem;
+  height: 280px;
   text-align: center;
 }
 @media screen and (min-width: 800px) {
@@ -132,10 +133,10 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: blue;
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: gold;
   }
 }
