@@ -74,7 +74,7 @@ nav {
 }
 .links a {
   color: blue;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -84,7 +84,7 @@ nav {
 .links a:hover {
   background: blue;
   color: gold;
-  font-size: 21px;
+  font-size: 18px;
   border-radius: 10px;
 }
 .social-icons {
@@ -122,7 +122,7 @@ nav {
   }
   .links a {
     padding: 0;
-    margin: 0 0.5rem;
+    margin: 10px 12px;
   }
   .links a:hover {
     padding: 0;
