@@ -1,5 +1,24 @@
-const menu = document.querySelector(".hamburguesa");
-const navegacion = document.querySelector(".navegacion");
+// Toggle the links button
+
+// classList - shows/gets all classes
+// contains - checks classList for specific class
+// add - add class
+// remove - remove class
+// toggle - toggles class
+
+const navToggle = document.querySelector(".nav-toggle");
+const links = document.querySelector(".links");
+
+navToggle.addEventListener('click', function() {
+    // console.log(links.classList);
+    links.classList.toggle('show-links');
+    // if (links.classList.contains('show-links')) {
+    //     links.classList.remove('show-links');
+    // } else {
+    //     links.classList.add('show-links');
+    // }
+})
+
 const btnTodos = document.querySelector(".all");
 const btnJs = document.querySelector(".js");
 const btnReact = document.querySelector(".react");
@@ -7,42 +26,9 @@ const btnNodejs = document.querySelector(".nodejs");
 const btnPhyton = document.querySelector(".phyton");
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
-  eventos();
   proyects();
 });
-const eventos = () => {
-  menu.addEventListener("click", abrirMenu);
-};
-const abrirMenu = () => {
-  navegacion.classList.remove("ocultar");
-  botonCerrar();
-};
-const botonCerrar = () => {
-  const btnCerrar = document.createElement("p");
-  const overlay = document.createElement("div");
-  overlay.classList.add("pantalla-completa");
-  const body = document.querySelector("body");
-  if (document.querySelectorAll(".pantalla-completa").length > 0) return;
-  body.appendChild(overlay);
-  btnCerrar.textContent = "x";
-  btnCerrar.classList.add("btn-cerrar");
-  navegacion.appendChild(btnCerrar);
-  cerrarMenu(btnCerrar, overlay);
-};
-const cerrarMenu = (boton, overlay) => {
-  boton.addEventListener("click", () => {
-    navegacion.classList.add("ocultar");
-    overlay.remove();
-    boton.remove();
-  });
 
-  // biome-ignore lint/complexity/useArrowFunction: <explanation>
-  overlay.onclick = function () {
-    overlay.remove();
-    navegacion.classList.add("ocultar");
-    boton.remove();
-  };
-};
 const proyects = () => {
   let proyectsArreglo = [];
   const proyects = document.querySelectorAll(".proyect");
