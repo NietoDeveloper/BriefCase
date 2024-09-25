@@ -84,11 +84,12 @@ nav {
 .links a:hover {
   background: blue;
   color: gold;
-  font-size: 18px;
+  font-size: 17px;
   border-radius: 10px;
 }
 .social-icons {
   display: none;
+  font-size: 16px;
 }
 /* By default hide the links */
 .links {
@@ -138,5 +139,6 @@ nav {
   }
   .social-icons a:hover {
     color: gold;
+    font-size: 18px;
   }
 }
