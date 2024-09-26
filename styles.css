@@ -107,7 +107,7 @@ p, a {
 }
 
 .buttons-header {
-  margin-top: 480px;
+  margin-top: 420px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,16 +126,17 @@ p, a {
 }
 
 .buttons-header a {
-  color: gainsboro;
-  font-size: 26px;
+  color: var(--scarlet);
+  font-size: 28px;
   padding: 0px 20px;
-  border: 2px solid gainsboro;
+  border: 2px solid var(--scarlet);
   margin-bottom: 120px;
   margin-top: 50px;
 }
 .buttons-header a:hover {
-  color: gainsboro;
-  border: 2px solid gainsboro;
+  color: blue;
+  border: 2px solid  #80c0f5;
+  font-size: 30px;
 }
 
 @media (min-width: 600px) {
