@@ -128,10 +128,10 @@ p, a {
 .buttons-header a {
   color: var(--scarlet);
   font-size: 28px;
-  padding: 0px 20px;
+  padding: 20px 40px;
   border: 2px solid var(--scarlet);
   margin-bottom: 120px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .buttons-header a:hover {
   color: blue;
