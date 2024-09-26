@@ -51,7 +51,7 @@ p, a {
 
 .contenido-header {
   position: relative;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .contenido-header::before {
@@ -72,6 +72,7 @@ p, a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 130px;
 }
 
 .texto-encabezado h2 {
@@ -106,7 +107,7 @@ p, a {
 }
 
 .buttons-header {
-  margin-top: 410px;
+  margin-top: 480px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,6 +131,7 @@ p, a {
   padding: 0px 20px;
   border: 2px solid gainsboro;
   margin-bottom: 120px;
+  margin-top: 50px;
 }
 .buttons-header a:hover {
   color: gainsboro;

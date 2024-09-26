@@ -72,10 +72,16 @@ nav {
 }
 .logo {
   height: 40px;
+  width: 250px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
 }
+
+
 .links a {
   color: blue;
-  font-size: 16px;
+  font-size: 17px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -85,7 +91,7 @@ nav {
 .links a:hover {
   background: blue;
   color: gold;
-  font-size: 17px;
+  font-size: 19px;
   border-radius: 10px;
 }
 .social-icons {
