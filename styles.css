@@ -107,7 +107,7 @@ p, a {
 }
 
 .buttons-header {
-  margin-top: 420px;
+  margin-top: 460px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,10 +128,9 @@ p, a {
 .buttons-header a {
   color: var(--scarlet);
   font-size: 28px;
-  padding: 20px 40px;
+  padding: 20px 50px;
   border: 2px solid var(--scarlet);
-  margin-bottom: 120px;
-  margin-top: 30px;
+  margin-bottom: 80px;
 }
 .buttons-header a:hover {
   color: blue;
