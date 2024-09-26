@@ -58,7 +58,8 @@ nav {
   padding: 1rem;
 }
 .nav-toggle {
-  font-size: 1.5rem;
+  font-size: 25px;
+  margin-right: 15px;
   color: blue;
   background: black;
   border-color: transparent;
