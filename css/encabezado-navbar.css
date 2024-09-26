@@ -99,7 +99,7 @@ nav {
 }
 /* Toggle class */
 .show-links {
-  height: 280px;
+  height: 260px;
   text-align: center;
 }
 @media screen and (min-width: 800px) {
