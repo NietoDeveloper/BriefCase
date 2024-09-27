@@ -151,9 +151,21 @@ p, a {
   margin-bottom: 60px;
 }
 video {
-  width: 290px;
-  height: 520px;
+  width: 250px;
+  height: 500px;
   margin-bottom: 30px;
+}
+@media (min-width: 700px) {
+  video {
+    width: 350px;
+    height: 550px;
+  }
+}
+@media (min-width: 1000px) {
+  video {
+    width: 400px;
+    height: 600px;
+  }
 }
 
 .neon {
