@@ -107,7 +107,7 @@ p, a {
 }
 
 .buttons-header {
-  margin-top: 460px;
+  margin-top: 480px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,50 +116,27 @@ p, a {
 }
 @media (min-width: 550px) {
   .buttons-header {
-    margin-top: 380px;
+    margin-top: 480px;
   }
 }
 @media (min-width: 800px) {
   .buttons-header {
-    margin-top: 340px;
+    margin-top: 440px;
   }
 }
 
 .buttons-header a {
   color: var(--scarlet);
   font-size: 28px;
-  padding: 20px 50px;
+  padding: 8px 40px;
   border: 2px solid var(--scarlet);
   margin-bottom: 80px;
 }
+
 .buttons-header a:hover {
   color: blue;
   border: 2px solid  #80c0f5;
   font-size: 30px;
-}
-
-@media (min-width: 600px) {
-  .buttons-header a {
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 800px) {
-  .buttons-header a {
-    font-size: 32px;
-  }
-}
-
-@media (min-width: 999px) {
-  .buttons-header a {
-    font-size: 36px;
-  }
-}
-
-@media (min-width: 1100px) {
-  .buttons-header a {
-    font-size: 40px;
-  }
 }
 
 
@@ -209,7 +186,7 @@ a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
-  height: 30px;
+  height: 70px;
   background: linear-gradient(90deg, transparent, #2196f3);
 }
 
