@@ -131,6 +131,7 @@ p, a {
   padding: 8px 40px;
   border: 2px solid var(--scarlet);
   margin-bottom: 80px;
+  backdrop-filter: blur(25px);
 }
 
 .buttons-header a:hover {
