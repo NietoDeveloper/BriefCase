@@ -3,12 +3,14 @@
   flex-wrap: wrap-reverse;
   justify-content: space-around;
   margin-left: 10px;
+  margin-top: 20px;
+  margin: 60px 30px;
 }
 
 .botones-proyects button {
   margin-top: 30px;
-  height: 70px;
-  width: 120px;
+  height: 60px;
+  width: 100px;
   cursor: pointer;
   background-color: gold;
   text-align: center;
@@ -18,26 +20,27 @@
 
 @media (min-width: 720px) {
   .botones-proyects button {
-    height: 80px;
-    width: 130px;
+    height: 70px;
+    width: 110px;
   }
 }
 
 .botones-proyects button h3 {
   align-items: center;
-  color: rgb(112, 4, 4);
-  font-size: 20px;
+  color: blue;
+  font-size: 24px;
 }
 
 .botones-proyects button h3:hover {
-  font-size: 30px;
+  font-size: 28px;
+  margin-top: 5px;
+  color: gold;
 }
 
 .botones-proyects button:hover {
-  transition-delay: 0.1s;
-  height: 105px;
-  width: 150px;
-  border-color: rgb(112, 4, 4);
+  transition-delay: 0.2s;
+  width: 140px;
+  border-color: gold;
 }
 
 .neon2 {
@@ -46,13 +49,7 @@
   text-transform: uppercase;
   text-decoration: none;
   overflow: hidden;
-  transition: 0.003s;
-}
-
-@media (min-width: 340px) {
-  .neon2 {
-    font-size: 30px;
-  }
+  transition: 0.1s;
 }
 
 .neon2:hover {
@@ -126,7 +123,7 @@ a span:nth-child(1) {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .proyects .proyect {
