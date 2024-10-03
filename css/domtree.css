@@ -1,4 +1,6 @@
-
+.arbol {
+	margin-bottom: 10px;
+}
 
 @keyframes spin {
 	0% { transform: rotateY( 0deg ); }

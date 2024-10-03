@@ -1,5 +1,5 @@
-const width = 300;
-const height = 500;
+const width = 330;
+const height = 600;
 const quantity = 190;
 const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio','Back End','PostgreSQL', 'Front End', 'Full Stack', 'App`s', 'Web Sites', 'VS Code', 'Vite', 'checkbox','PHP','Docker','AWS' ];
 const greetings = [ 'HTML','Java Script','Phyton','CSS','My SQl','SQL','React','GIT','Node JS' ];
