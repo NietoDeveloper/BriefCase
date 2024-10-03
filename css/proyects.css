@@ -106,7 +106,7 @@ h3 {
 .change {
     cursor: pointer;
     perspective: 210px;
-    padding-top: 10px;
+    padding-top: 60px;
     text-align: center;
     display: flex;
     align-items: center;
