@@ -113,6 +113,7 @@
 .step h2 {
     font-size: 30px;
     margin-top: 10px;
+    color: rgb(112, 4, 4);
 }
 
 @media screen and (min-width: 620px) {

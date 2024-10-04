@@ -1,18 +1,55 @@
 .arbol {
-	margin-bottom: 50px;
-	margin-top: 100px;
 	align-items: center;
+	margin-bottom: 10px;
+	margin-top: 150px;
 }
+@media (min-width: 330px) {
+	.arbol {
+		margin-bottom: 100px;
+	}
+  }
+  @media (min-width: 390px) {
+	.arbol {
+		margin-bottom: 200px;
+		margin-top: -20px;
+	}
+  }
+  @media (min-width: 412px) {
+	.arbol {
+		margin-bottom: 250px;
+		margin-top: -80px;
+	}
+  }
+  @media (min-width: 430px) {
+	.arbol {
+		margin-bottom: 280px;
+		margin-top: -10px;
+	}
+  }
+  @media (min-width: 720px) {
+	.arbol {
+		margin-bottom: 350px;
+	}
+  }
+  @media (min-width: 820px) {
+	.arbol {
+		margin-bottom: 350px;
+		margin-top: -160px;
+	}
+  }
+  @media (min-width: 1024px) {
+	.arbol {
+		margin-bottom: 480px;
+		margin-top: -200px;
+	}
+  }
 
 @keyframes spin {
 	0% { transform: rotateY( 0deg ); }
 	100% { transform: rotateY( 360deg ); }
 }
 
-body {
-	perspective: 3000px;
-	
-}
+
 
 .tree {
 	margin: 0 auto;
@@ -25,7 +62,7 @@ body {
 .tree * {
 	position: absolute;
 	transform-origin: 0 0;
-	margin-bottom: 10px;
+	margin-bottom: 100px;
 }
 
 
