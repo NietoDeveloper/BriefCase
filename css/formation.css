@@ -51,13 +51,13 @@
 }
 
 .logros {
-    margin-top: 230px;
+    margin-top: 50px;
 }
 
 .container {
-    background-color: silver;
-    margin: 50px auto;
-    margin-top: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin: 40px auto;
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
@@ -180,7 +180,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 140px;
+    margin-top: 40px;
   }
   
   .proyects .proyect {
