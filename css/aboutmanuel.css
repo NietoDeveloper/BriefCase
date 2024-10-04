@@ -111,7 +111,8 @@
 
 .container {
 
-    background-color: silver;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
     margin: 50px auto;
     border-radius: 20px;
     padding: 10px 20px;
