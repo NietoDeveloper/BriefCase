@@ -131,6 +131,8 @@
 .step h3 {
     color: blue;
     font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 650px) {
@@ -183,6 +185,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .proyects .proyect {
@@ -193,9 +197,6 @@
     border-color: blue;
     background-color: gold;
     margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 20px;
     text-align: center;
   }
   
