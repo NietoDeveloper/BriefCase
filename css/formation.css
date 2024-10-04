@@ -57,13 +57,13 @@
 .container {
     background-color: transparent;
     backdrop-filter: blur(25px);
-    margin: 40px auto;
+    margin: 30px auto;
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
     width: 220px;
     box-shadow: 10px 10px 20px black;
-    transition: all 400ms ease-out;
+    transition: all 0.3s ease-out;
 }
 
 @media screen and (min-width: 420px) {
@@ -112,6 +112,7 @@
 
 .step h2 {
     font-size: 30px;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 620px) {
