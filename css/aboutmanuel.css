@@ -167,6 +167,7 @@
 .step h2 {
     font-size: 18px;
     margin-top: 10px;
+    margin-bottom: 20px;
     color: gold;
 }
 
@@ -219,9 +220,10 @@
 .button {
     background-color: silver;
     border-radius: 10px;
-    margin-right: 10px;
-    width: 200px;
-    height: 190px;
+    margin-top: 5px;
+    align-items: center;
+    width: 170px;
+    height: 120px;
     box-shadow: 4px 4px 12px black;
     display: flex;
     transition: all 400ms ease-out;
@@ -229,7 +231,7 @@
 
 @media screen and (min-width: 420px) {
     .container .button {
-        width: 250px;
+        width: 180px;
         height: 160px;
     }
 }
@@ -268,9 +270,9 @@
 }
 
 .step img {
-    width: 220px;
-    height: 180px;
-    border: 1px;
+    width: 170px;
+    height: 130px;
+    align-items: center;
     display: flex;
     border-radius: 10px;
 }
