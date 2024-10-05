@@ -3,25 +3,25 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 572px;
+    height: 1000px;
     background-color: black;
 }
 
 @media(min-width: 600px) {
     .pantalla-dividida {
-        height: 640px;
+        height: 1100px;
     }
 }
 
 @media(min-width: 800px) {
     .pantalla-dividida {
-        height: 730px;
+        height: 1200px;
     }
 }
 
 @media(min-width: 999px) {
     .pantalla-dividida {
-        height: 840px;
+        height: 1300px;
     }
 }
 
@@ -35,24 +35,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    height: 570px;
+    height: 999px;
 }
 
 @media(min-width: 600px) {
     .pantalla-dividida .Aboutpic img {
-        height: 640px;
+        height: 1100px;
     }
 }
 
 @media(min-width: 800px) {
     .pantalla-dividida .Aboutpic img {
-        height: 730px;
+        height: 1200px;
     }
 }
 
 @media(min-width: 999px) {
     .pantalla-dividida .Aboutpic img {
-        height: 840px;
+        height: 1300px;
     }
 }
 
