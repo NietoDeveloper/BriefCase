@@ -167,7 +167,7 @@
 .step h2 {
     font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: gold;
 }
 
@@ -185,6 +185,7 @@
 
 .step h3 {
     margin-top: 10px;
+    margin-bottom: 30px;
     color: blue;
     font-size: 28px;
 }
@@ -192,6 +193,7 @@
 @media(min-width: 600px) {
     .step h3 {
         font-size: 33px;
+        margin-top: 10px;
     }
 }
 
@@ -221,8 +223,9 @@
     background-color: silver;
     border-radius: 10px;
     margin-top: 5px;
+    margin-bottom: 20px;
     align-items: center;
-    width: 170px;
+    width: 150px;
     height: 120px;
     box-shadow: 4px 4px 12px black;
     display: flex;
@@ -232,35 +235,36 @@
 @media screen and (min-width: 420px) {
     .container .button {
         width: 180px;
-        height: 160px;
+        height: 150px;
     }
 }
 
 @media screen and (min-width: 520px) {
     .container .button {
-        width: 300px;
+        width: 210px;
         height: 180px;
     }
 }
 
 @media screen and (min-width: 650px) {
     .container .button {
-        width: 340px;
+        width: 240px;
         height: 210px;
     }
 }
 
 @media screen and (min-width: 800px) {
     .container .button {
-        width: 450px;
-        height: 280px;
+        width: 260px;
+        height: 220px;
+        align-items: center;
     }
 }
 
 @media screen and (min-width: 1100px) {
     .container .button {
-        width: 650px;
-        height: 380px;
+        width: 350px;
+        height: 320px;
     }
 }
 
@@ -279,29 +283,34 @@
 
 @media screen and (min-width: 420px) {
     .container .step img {
-        width: 240px;
+        width: 220px;
         height: 165px;
     }
 }
 
 @media screen and (min-width: 520px) {
     .container .step img {
-        width: 290px;
-        height: 180px;
+        width: 320px;
+        height: 190px;
     }
 }
 
 @media screen and (min-width: 650px) {
     .container .step img {
-        width: 330px;
-        height: 210px;
+        width: 380px;
+        height: 230px;
+        align-items: center;
     }
 }
 
 @media screen and (min-width: 800px) {
     .container .step img {
-        width: 440px;
-        height: 280px;
+        width: 480px;
+        height: 260px;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin: 20px 40px;
     }
 }
 
