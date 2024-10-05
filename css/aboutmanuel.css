@@ -113,7 +113,7 @@
 .container {
     background-color: transparent;
     backdrop-filter: blur(25px);
-    margin: 50px auto;
+    margin: 40px auto;
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
@@ -166,6 +166,8 @@
 
 .step h2 {
     font-size: 18px;
+    margin-top: 10px;
+    color: gold;
 }
 
 @media(min-width: 600px) {
@@ -181,6 +183,7 @@
 }
 
 .step h3 {
+    margin-top: 10px;
     color: blue;
     font-size: 28px;
 }
@@ -215,11 +218,10 @@
 
 .button {
     background-color: silver;
-    margin: 15px auto;
-    border-radius: 20px;
-    padding: 15px 5px;
-    border: 10px;
-    width: 210px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 190px;
     box-shadow: 4px 4px 12px black;
     display: flex;
     transition: all 400ms ease-out;
@@ -266,11 +268,11 @@
 }
 
 .step img {
-    margin: 1px 5px;
-    width: 200px;
-    height: 190px;
+    width: 220px;
+    height: 180px;
     border: 1px;
     display: flex;
+    border-radius: 10px;
 }
 
 @media screen and (min-width: 420px) {
