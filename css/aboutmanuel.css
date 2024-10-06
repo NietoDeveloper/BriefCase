@@ -166,8 +166,7 @@
 
 .step h2 {
     font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: gold;
 }
 
@@ -184,8 +183,8 @@
 }
 
 .step h3 {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: blue;
     font-size: 28px;
 }
@@ -194,6 +193,11 @@
     .step h3 {
         font-size: 33px;
         margin-top: 10px;
+    }
+}
+@media(min-width: 800px) {
+    .step h3 {
+        margin-top: 30px;
     }
 }
 
@@ -210,6 +214,7 @@
 @media(min-width: 600px) {
     .step p {
         font-size: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -242,27 +247,28 @@
 @media screen and (min-width: 520px) {
     .container .button {
         width: 210px;
-        height: 180px;
+        height: 170px;
     }
 }
 
 @media screen and (min-width: 650px) {
     .container .button {
         width: 240px;
-        height: 210px;
+        height: 180px;
     }
 }
 
 @media screen and (min-width: 800px) {
     .container .button {
-
+        width: 280px;
+        height: 200px;
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
     .container .button {
-        width: 350px;
-        height: 320px;
+        width: 450px;
+        height: 300px;
     }
 }
 
@@ -305,13 +311,14 @@
     .container .step img {
         width: 510px;
         height: 260px;
-       
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
     .container .step img {
-        width: 640px;
-        height: 380px;
+        width: 520px;
+        height: 350px;
     }
 }
