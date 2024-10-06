@@ -303,8 +303,9 @@
 
 @media screen and (min-width: 800px) {
     .container .step img {
-
-
+        width: 510px;
+        height: 260px;
+       
     }
 }
 
