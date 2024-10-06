@@ -223,6 +223,7 @@
 
 
 .send {
+    border: 2px solid blue;
     cursor: pointer;
     background-color: blue;
     width: 160px;
