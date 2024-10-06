@@ -255,9 +255,7 @@
 
 @media screen and (min-width: 800px) {
     .container .button {
-        width: 260px;
-        height: 220px;
-        align-items: center;
+
     }
 }
 
@@ -274,7 +272,7 @@
 }
 
 .step img {
-    width: 170px;
+    width: 180px;
     height: 130px;
     align-items: center;
     display: flex;
@@ -283,14 +281,14 @@
 
 @media screen and (min-width: 420px) {
     .container .step img {
-        width: 220px;
+        width: 245px;
         height: 165px;
     }
 }
 
 @media screen and (min-width: 520px) {
     .container .step img {
-        width: 320px;
+        width: 325px;
         height: 190px;
     }
 }
@@ -305,12 +303,8 @@
 
 @media screen and (min-width: 800px) {
     .container .step img {
-        width: 480px;
-        height: 260px;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 20px;
-        margin: 20px 40px;
+
+
     }
 }
 
