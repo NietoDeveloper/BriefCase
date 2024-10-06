@@ -12,8 +12,8 @@ async function handleSubmit(event) {
   });
   if (response.ok) {
     this.reset();
-    alert("Mensaje enviado");
+    alert("Message Sent");
   } else {
-    alert("Error al envar el mensaje");
+    alert("Error");
   }
 }

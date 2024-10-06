@@ -54,7 +54,8 @@
 }
 
 .container {
-    background-color: silver;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
     margin: 50px auto;
     border-radius: 20px;
     padding: 10px 20px;
@@ -107,30 +108,33 @@
 }
 
 .step h1 {
-    font-size: 25px;
+    font-size: 23px;
+    color: gainsboro;
+    margin: 15px 5px;
 }
 
 @media(min-width: 600px) {
     .step h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 }
 
 @media(min-width: 800px) {
     .step h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
 @media(min-width: 999px) {
     .step h1 {
-        font-size: 50px;
+        font-size: 34px;
     }
 }
 
 .step h2 {
     font-size: 21px;
-    color: blue;
+    margin: 15px 5px;
+    color: gold;
 }
 
 @media(min-width: 600px) {
@@ -160,6 +164,7 @@
 .step h3 {
     color: blue;
     font-size: 22px;
+    margin: 15px 5px;
 }
 
 @media(min-width: 600px) {
