@@ -377,16 +377,16 @@
 
 #copy-btn{
     width: 25%;
-    height: 25px;
+    height: 45px;
     cursor: pointer;
-    padding: 2px 2px;
+    padding: 5px 2px;
     border: 2px solid blue;
     align-items: center;
     background-color: var(--gold);
 }
 #copy-btn:hover {
     background-color: var(--scarlet);
-    height: 35px;
+    height: 50px;
 }
 #copy-btn p {
     color: blue;
