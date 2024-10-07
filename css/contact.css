@@ -398,6 +398,12 @@
     margin-top: 0px;
 }
 #copy-btn p:hover {
-    font-size: 22px;
+    font-size: 20px;
 }
 
+
+@media(min-width: 700px) {
+    iframe {
+        width: 400px;
+    }
+}
