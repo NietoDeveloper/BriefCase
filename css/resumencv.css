@@ -53,15 +53,148 @@
     transform: rotateX(90deg) translateZ(var(--half-btn-height));
 }
 
-.buttom-pdf {
+.card-pdf {
     background-color: transparent;
     backdrop-filter: blur(25px);
-    margin: 50px auto;
+    margin: 100px auto;
     border-radius: 20px;
     padding: 10px 20px;
     border: 2px;
-    width: 250px;
+    width: 300px;
     box-shadow: 10px 10px 20px black;
     transition: all 400ms ease-out;
     align-items: center;
+}
+@media screen and (min-width: 700px) {
+    .card-pdf {
+        width: 500px;
+    }
+}
+
+.send {
+    border: 2px solid blue;
+    cursor: pointer;
+    background-color: blue;
+    width: 260px;
+    height: 350px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.0010s;
+}
+
+@media screen and (min-width: 700px) {
+    .send {
+        width: 450px;
+    }
+}
+
+.send h3 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+}
+
+@media(min-width: 700px) {
+    .send h3 {
+        font-size: 45px;
+    }
+}
+
+.send:hover {
+
+    background: rgb(0, 255, 0);
+    box-shadow: 0 0 90px rgb(0, 255, 0),
+        0 0 110px rgb(0, 255, 0),
+        0 0 140px rgb(0, 255, 0);
+    transition-delay: 0.7s;
+}
+
+@media screen and (min-width: 720px) {
+    .send:hover {
+        box-shadow: 0 0 120px rgb(0, 255, 0),
+            0 0 150px rgb(0, 255, 0),
+            0 0 190px rgb(0, 255, 0);
+
+    }
+}
+
+.send:hover h3 {
+    color: rgb(1, 102, 43);
+    font-size: 60px;
+}
+
+@media(min-width: 700px) {
+    .send:hover h3 {
+        font-size: 70px;
+    }
+}
+
+.send span {
+    position: absolute;
+    display: block;
+}
+
+.send span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(90deg, transparent, rgb(0, 255, 0));
+}
+
+@media screen and (min-width: 700px) {
+    .send span:nth-child(1) {
+        height: 140px;
+    }
+}
+
+.send:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.send span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgb(19, 255, 19));
+}
+
+.send:hover span:nth-child(2) {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.15s;
+}
+
+.send span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(270deg, transparent, rgb(15, 253, 15));
+}
+
+.send:hover span:nth-child(3) {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.send span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(270deg, transparent, rgb(36, 255, 36));
+}
+
+.send:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.65s;
 }
