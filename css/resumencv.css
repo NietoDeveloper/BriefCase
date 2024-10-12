@@ -1,0 +1,54 @@
+.change {
+    perspective: 210px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-change {
+
+    --btn-height: 200px;
+    --half-btn-height: calc(var(--btn-height) / 2);
+    text-align: center;
+    height: var(--btn-height);
+    width: 320px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out;
+    transform: translateZ(calc(-1 * var(--half-btn-height)));
+}
+
+.change .btn-change i {
+    padding-right: 20px;
+}
+
+.btn-change:hover {
+    transform: rotateX(-90deg) translateY(var(--half-btn-height));
+}
+
+.side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    backface-visibility: hidden;
+}
+
+.default-side {
+
+    background-color: var(--scarlet);
+    color: var(--gold);
+    transform: translateZ(var(--half-btn-height));
+
+}
+
+.hover-side {
+    color: var(--scarlet);
+    background-color: blue;
+    transform: rotateX(90deg) translateZ(var(--half-btn-height));
+}
