@@ -52,3 +52,16 @@
     background-color: blue;
     transform: rotateX(90deg) translateZ(var(--half-btn-height));
 }
+
+.buttom-pdf {
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px;
+    width: 250px;
+    box-shadow: 10px 10px 20px black;
+    transition: all 400ms ease-out;
+    align-items: center;
+}
