@@ -125,7 +125,7 @@ a span:nth-child(1) {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .proyects .proyect {
@@ -144,29 +144,21 @@ a span:nth-child(1) {
 
 .proyects .proyect h2 {
   color: blue;
-  font-size: 32px;
-  margin-top: 30px;
-}
-
-.proyects .proyect i {
-  font-size: 60px;
-  color: blue;
-}
-@media (min-width: 740px) {
-  .proyects .proyect i  {
-    font-size: 70px;
-  }
+  font-size: 26px;
+  margin-top: 10px;
 }
 
 .proyects .proyect h3 {
   font-size: 20px;
-  margin-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color: rgb(112, 4, 4);
 }
 
 .proyects .proyect p {
   font-size: 17px;
   color: blue;
+  margin-bottom: 10px;
   font-family: var(--parrafos);
 }
 
@@ -179,6 +171,6 @@ a span:nth-child(1) {
   transform: translateY(-10%);
   box-shadow: 10px 10px 20px black;
   transition: all 300ms ease-out;
-  width: 230px;
-  height: 150px;
+  width: 220px;
+  height: 140px;
 }
