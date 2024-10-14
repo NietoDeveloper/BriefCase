@@ -42,11 +42,6 @@ main {
 
 }
 
-/*
-=============== 
-Navbar
-===============
-*/
 nav {
   background: black;
   box-shadow: var(--light-shadow);
