@@ -381,7 +381,7 @@
 
 #copy-btn{
     width: 25%;
-    height: 45px;
+    height: 55px;
     cursor: pointer;
     padding: 5px 2px;
     border: 2px solid blue;
@@ -390,15 +390,16 @@
 }
 #copy-btn:hover {
     background-color: var(--scarlet);
-    height: 50px;
+    height: 60px;
 }
 #copy-btn p {
     color: blue;
     font-size: 18px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 #copy-btn p:hover {
     font-size: 20px;
+    margin-top: 6px;
 }
 
 
