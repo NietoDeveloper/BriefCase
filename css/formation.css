@@ -164,22 +164,6 @@
     }
 }
 
-.fab {
-    font-size: 50px;
-}
-
-@media screen and (min-width: 620px) {
-    .container .step .fab {
-        font-size: 60px;
-    }
-}
-
-@media screen and (min-width: 999px) {
-    .container .step .fab {
-        font-size: 70px;
-    }
-}
-
 .proyects {
     display: flex;
     justify-content: space-around;
