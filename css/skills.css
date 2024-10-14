@@ -112,8 +112,9 @@
 
 .step h2 {
     font-size: 30px;
-    margin-top: 10px;
-    color: rgb(112, 4, 4);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: gold;
 }
 
 @media screen and (min-width: 620px) {
@@ -130,20 +131,20 @@
 
 .step h3 {
     color: blue;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
 @media screen and (min-width: 650px) {
     .container .step h3 {
-        font-size: 50px;
+        font-size: 45px;
     }
 }
 
 @media screen and (min-width: 999px) {
     .container .step h3 {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
@@ -238,5 +239,10 @@
   @media (min-width: 950px) {
     .proyects .proyect i  {
       font-size: 90px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .proyects .proyect i  {
+      font-size:110px;
     }
   }
