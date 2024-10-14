@@ -220,8 +220,23 @@
     margin-top: 5px;
     color: blue;
   }
-  @media (min-width: 740px) {
+  @media (min-width: 500px) {
     .proyects .proyect i  {
       font-size: 60px;
+    }
+  }
+  @media (min-width: 650px) {
+    .proyects .proyect i  {
+      font-size: 70px;
+    }
+  }
+  @media (min-width: 770px) {
+    .proyects .proyect i  {
+      font-size: 80px;
+    }
+  }
+  @media (min-width: 950px) {
+    .proyects .proyect i  {
+      font-size: 90px;
     }
   }
