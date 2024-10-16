@@ -91,8 +91,14 @@
 .card-pdf h2 {
     color: rgb(0, 255, 0);
     font-size: 50px;
+    text-align: center;
+    margin-top: 125px;
 }
-
+.card-pdf h2:hover {
+    color: blue;
+    font-size: 70px;
+    margin-top: 110px;
+}
 .send {
     border: 2px solid blue;
     cursor: pointer;
