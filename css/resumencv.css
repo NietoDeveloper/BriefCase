@@ -84,9 +84,13 @@
 }
 .card-pdf h3 {
     color: var(--scarlet);
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     font-size: 23px;
+}
+.card-pdf h2 {
+    color: rgb(0, 255, 0);
+    font-size: 50px;
 }
 
 .send {
