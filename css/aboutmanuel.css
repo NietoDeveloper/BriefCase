@@ -192,12 +192,13 @@
 @media(min-width: 600px) {
     .step h3 {
         font-size: 33px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 }
 @media(min-width: 800px) {
     .step h3 {
-        margin-top: 30px;
+        margin-top: 40px;
+        font-size: 40px;
     }
 }
 
@@ -278,7 +279,7 @@
 }
 
 .step img {
-    width: 180px;
+    width: 185px;
     height: 130px;
     align-items: center;
     display: flex;
@@ -318,7 +319,7 @@
 
 @media screen and (min-width: 1000px) {
     .container .step img {
-        width: 520px;
+        width: 700px;
         height: 350px;
     }
 }
