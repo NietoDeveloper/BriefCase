@@ -17,6 +17,11 @@
   border-color: blue;
   border-radius: 10px;
 }
+.botones-proyects button:hover {
+  transition-delay: 0.3s;
+  width: 130px;
+  border-color: gold;
+}
 
 @media (min-width: 720px) {
   .botones-proyects button {
@@ -39,10 +44,9 @@
   color: gold;
 }
 
-.botones-proyects button:hover {
-  transition-delay: 0.2s;
-  width: 130px;
-  border-color: gold;
+.botones-proyects button p {
+  color: blue;
+  font-size: 18px;
 }
 
 .neon2 {
@@ -125,9 +129,22 @@ a span:nth-child(1) {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: -20px;
+}
+@media (min-width: 700px) {
+  .proyects {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (min-width: 1000px) {
+  .proyects {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
 
 .proyects .proyect {
