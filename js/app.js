@@ -25,6 +25,9 @@ const proyects = () => {
   proyects.forEach(
     (proyect) => (proyectsArreglo = [...proyectsArreglo, proyect])
   );
+  const htmlcssjs = proyectsArreglo.filter(
+    (htmlcssjs) => htmlcssjs.getAttribute("data-proyect") === "htmlcssjs" 
+ );
   const js = proyectsArreglo.filter(
     (js) => js.getAttribute("data-proyect") === "js"
   );
@@ -43,9 +46,13 @@ const proyects = () => {
   const mysql = proyectsArreglo.filter(
     (mysql) => mysql.getAttribute("data-proyect") === "mysql" 
  );
-  mostrarProyects(js, react, nodejs, java, astro, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, js, react, nodejs, java, astro, mysql, proyectsArreglo);
 };
-const mostrarProyects = (js, react, nodejs, java, astro, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, js, react, nodejs, java, astro, mysql, todos) => {
+  btnHTMLCSSJS.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
+  });
   btnJs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     js.forEach((js) => contenedorProyects.appendChild(js));
