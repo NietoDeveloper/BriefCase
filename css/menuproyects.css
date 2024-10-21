@@ -37,16 +37,22 @@
   margin-bottom: 5px;
   margin-top: 8px;
 }
-
 .botones-proyects button h3:hover {
   font-size: 28px;
   margin-top: 8px;
   color: gold;
+  text-align: center;
 }
 
 .botones-proyects button p {
   color: blue;
   font-size: 18px;
+  margin-top: 5px;
+}
+@media (min-width: 720px) {
+  .botones-proyects button p {
+    margin-top: 20px;
+  }
 }
 
 .neon2 {
