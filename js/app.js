@@ -23,7 +23,7 @@ const btnTodos = document.querySelector(".all");
 const btnJs = document.querySelector(".js");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
-const btnPhyton = document.querySelector(".phyton");
+const btnJava = document.querySelector(".java");
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
   proyects();
@@ -46,12 +46,12 @@ const proyects = () => {
   const nodejs = proyectsArreglo.filter(
     (nodejs) => nodejs.getAttribute("data-proyect") === "nodejs"
   );
-  const phyton = proyectsArreglo.filter(
-    (phyton) => phyton.getAttribute("data-proyect") === "phyton"
+  const java = proyectsArreglo.filter(
+    (java) => java.getAttribute("data-proyect") === "java"
   );
-  mostrarProyects(js, react, nodejs, phyton, proyectsArreglo);
+  mostrarProyects(js, react, nodejs, java, proyectsArreglo);
 };
-const mostrarProyects = (js, react, nodejs, phyton, todos) => {
+const mostrarProyects = (js, react, nodejs, java, todos) => {
   btnJs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     // biome-ignore lint/complexity/noForEach: <explanation>
@@ -67,10 +67,10 @@ const mostrarProyects = (js, react, nodejs, phyton, todos) => {
     // biome-ignore lint/complexity/noForEach: <explanation>
     nodejs.forEach((nodejs) => contenedorProyects.appendChild(nodejs));
   });
-  btnPhyton.addEventListener("click", () => {
+  btnJava.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     // biome-ignore lint/complexity/noForEach: <explanation>
-    phyton.forEach((phyton) => contenedorProyects.appendChild(phyton));
+    phyton.forEach((java) => contenedorProyects.appendChild(java));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
