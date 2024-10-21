@@ -24,6 +24,7 @@ const btnJs = document.querySelector(".js");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
 const btnJava = document.querySelector(".java");
+const btnAstro = document.querySelector(".astro");
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
   proyects();
@@ -32,9 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const proyects = () => {
   let proyectsArreglo = [];
   const proyects = document.querySelectorAll(".proyect");
-  // biome-ignore lint/complexity/noForEach: <explanation>
   proyects.forEach(
-    // biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
     (proyect) => (proyectsArreglo = [...proyectsArreglo, proyect])
   );
   const js = proyectsArreglo.filter(
@@ -49,32 +48,30 @@ const proyects = () => {
   const java = proyectsArreglo.filter(
     (java) => java.getAttribute("data-proyect") === "java"
   );
-  mostrarProyects(js, react, nodejs, java, proyectsArreglo);
+  const astro = proyectsArreglo.filter(
+     (astro) => astro.getAttribute("data-proyect") === "astro" 
+  );
+  mostrarProyects(js, react, nodejs, java, astro, proyectsArreglo);
 };
-const mostrarProyects = (js, react, nodejs, java, todos) => {
+const mostrarProyects = (js, react, nodejs, java, astro, todos) => {
   btnJs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    // biome-ignore lint/complexity/noForEach: <explanation>
     js.forEach((js) => contenedorProyects.appendChild(js));
   });
   btnReact.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    // biome-ignore lint/complexity/noForEach: <explanation>
     react.forEach((react) => contenedorProyects.appendChild(react));
   });
   btnNodejs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    // biome-ignore lint/complexity/noForEach: <explanation>
     nodejs.forEach((nodejs) => contenedorProyects.appendChild(nodejs));
   });
   btnJava.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    // biome-ignore lint/complexity/noForEach: <explanation>
     java.forEach((java) => contenedorProyects.appendChild(java));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    // biome-ignore lint/complexity/noForEach: <explanation>
     todos.forEach((todo) => contenedorProyects.appendChild(todo));
   });
 };
