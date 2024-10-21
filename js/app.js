@@ -1,11 +1,3 @@
-// Toggle the links button
-
-// classList - shows/gets all classes
-// contains - checks classList for specific class
-// add - add class
-// remove - remove class
-// toggle - toggles class
-
 const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
 
@@ -69,6 +61,10 @@ const mostrarProyects = (js, react, nodejs, java, astro, todos) => {
   btnJava.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     java.forEach((java) => contenedorProyects.appendChild(java));
+  });
+  btnAstro.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    astro.forEach((astro) => contenedorProyects.appendChild(astro));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
