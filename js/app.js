@@ -12,7 +12,7 @@ const btnNodejs = document.querySelector(".nodejs");
 const btnJava = document.querySelector(".java");
 const btnAstro = document.querySelector(".astro");
 const btnMySQL = document.querySelector(".mysql");
-const btnNextJS = document.querySelector(".nextjs");
+const btnNEXTJS = document.querySelector(".nextjs");
 const btnHTMLCSSJS = document.querySelector(".htmlcssjs");
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
@@ -46,9 +46,12 @@ const proyects = () => {
   const mysql = proyectsArreglo.filter(
     (mysql) => mysql.getAttribute("data-proyect") === "mysql" 
  );
-  mostrarProyects(htmlcssjs, js, react, nodejs, java, astro, mysql, proyectsArreglo);
+ const nextjs = proyectsArreglo.filter(
+  (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
+);
+  mostrarProyects(htmlcssjs, js, react, nodejs, nextjs, java, astro, mysql, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, js, react, nodejs, java, astro, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, js, react, nodejs, nextjs, java, astro, mysql, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
@@ -64,6 +67,10 @@ const mostrarProyects = (htmlcssjs, js, react, nodejs, java, astro, mysql, todos
   btnNodejs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     nodejs.forEach((nodejs) => contenedorProyects.appendChild(nodejs));
+  });
+  btnNEXTJS.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    nextjs.forEach((nextjs) => contenedorProyects.appendChild(nextjs));
   });
   btnJava.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
