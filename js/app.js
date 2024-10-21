@@ -2,13 +2,7 @@ const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
 
 navToggle.addEventListener('click', function() {
-    // console.log(links.classList);
     links.classList.toggle('show-links');
-    // if (links.classList.contains('show-links')) {
-    //     links.classList.remove('show-links');
-    // } else {
-    //     links.classList.add('show-links');
-    // }
 })
 
 const btnTodos = document.querySelector(".all");
@@ -17,6 +11,9 @@ const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
 const btnJava = document.querySelector(".java");
 const btnAstro = document.querySelector(".astro");
+const btnMySQL = document.querySelector(".mysql");
+const btnNextJS = document.querySelector(".nextjs");
+const btnHTMLCSSJS = document.querySelector(".htmlcssjs");
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
   proyects();
@@ -43,9 +40,12 @@ const proyects = () => {
   const astro = proyectsArreglo.filter(
      (astro) => astro.getAttribute("data-proyect") === "astro" 
   );
-  mostrarProyects(js, react, nodejs, java, astro, proyectsArreglo);
+  const mysql = proyectsArreglo.filter(
+    (mysql) => mysql.getAttribute("data-proyect") === "mysql" 
+ );
+  mostrarProyects(js, react, nodejs, java, astro, mysql, proyectsArreglo);
 };
-const mostrarProyects = (js, react, nodejs, java, astro, todos) => {
+const mostrarProyects = (js, react, nodejs, java, astro, mysql, todos) => {
   btnJs.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     js.forEach((js) => contenedorProyects.appendChild(js));
@@ -65,6 +65,10 @@ const mostrarProyects = (js, react, nodejs, java, astro, todos) => {
   btnAstro.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     astro.forEach((astro) => contenedorProyects.appendChild(astro));
+  });
+  btnMySQL.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    mysql.forEach((mysql) => contenedorProyects.appendChild(mysql));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
