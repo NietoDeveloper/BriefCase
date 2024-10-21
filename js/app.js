@@ -70,7 +70,7 @@ const mostrarProyects = (js, react, nodejs, java, todos) => {
   btnJava.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     // biome-ignore lint/complexity/noForEach: <explanation>
-    phyton.forEach((java) => contenedorProyects.appendChild(java));
+    java.forEach((java) => contenedorProyects.appendChild(java));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
