@@ -54,6 +54,10 @@
     margin-top: 20px;
   }
 }
+.botones-proyects button p:hover {
+  color: gold;
+  margin-top: 15px;
+}
 
 .neon2 {
   position: relative;
