@@ -223,27 +223,29 @@
     margin-bottom: 5px;
   }
   @media (min-width: 500px) {
-    .proyects .proyect i  {
-      font-size: 60px;
+    .proyects .proyect img  {
+      width: 95px;
     }
   }
   @media (min-width: 650px) {
-    .proyects .proyect i  {
-      font-size: 70px;
+    .proyects .proyect img  {
+      height: 85px;
     }
   }
   @media (min-width: 770px) {
-    .proyects .proyect i  {
-      font-size: 80px;
+    .proyects .proyect img  {
+      width: 100px;
     }
   }
   @media (min-width: 950px) {
-    .proyects .proyect i  {
-      font-size: 90px;
+    .proyects .proyect img {
+      height: 95px;
+      width: 105px;
     }
   }
   @media (min-width: 1024px) {
-    .proyects .proyect i  {
-      font-size:110px;
+    .proyects .proyect img {
+      height: 100px;
+      width: 120px;
     }
   }
