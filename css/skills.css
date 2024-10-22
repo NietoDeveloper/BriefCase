@@ -111,7 +111,7 @@
 }
 
 .step h2 {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 15px;
     margin-bottom: 10px;
     color: gold;
@@ -119,32 +119,32 @@
 
 @media screen and (min-width: 620px) {
     .container .step h2 {
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 
 @media screen and (min-width: 999px) {
     .container .step h2 {
-        font-size: 55px;
+        font-size: 40px;
     }
 }
 
 .step h3 {
     color: rgb(112, 4, 4);
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
 @media screen and (min-width: 650px) {
     .container .step h3 {
-        font-size: 45px;
+        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 999px) {
     .container .step h3 {
-        font-size: 55px;
+        font-size: 38px;
     }
 }
 
@@ -163,6 +163,12 @@
     .container .step a {
         font-size: 42px;
     }
+}
+
+.container .step img {
+  width: 140px;
+  height: 110px;
+  margin-top: 5px;
 }
 
 .proyects {
