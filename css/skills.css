@@ -56,7 +56,7 @@
 
 .container {
     background-color: transparent;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(30px);
     margin: 30px auto;
     border-radius: 20px;
     padding: 10px 20px;
