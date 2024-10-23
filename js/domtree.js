@@ -2,7 +2,7 @@ const width = 330;
 const height = 600;
 const quantity = 180;
 const types = [ 'text', 'select', 'progress', 'meter', 'button', 'radio', 'checkbox' ];
-const greetings = [ 'HTML','Java Script','Java','CSS','My SQl','React','GIT','Node JS','Astro','Docker' ];
+const greetings = [ 'HTML','JS','CSS','My SQl','React','Node JS','Astro','Docker','Java' ];
 
 let tree = document.querySelector( '.tree' ),
 	treeRotation = 0;
