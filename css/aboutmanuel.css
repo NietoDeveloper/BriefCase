@@ -146,7 +146,7 @@
 }
 
 .step h3 {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     color: blue;
     font-size: 28px;
@@ -155,19 +155,19 @@
 @media(min-width: 600px) {
     .step h3 {
         font-size: 33px;
-        margin-top: 30px;
+        margin-top: 60px;
     }
 }
 @media(min-width: 800px) {
     .step h3 {
-        margin-top: 40px;
-        font-size: 40px;
+        margin-top: 60px;
+        font-size: 36px;
     }
 }
 
 @media(min-width: 900px) {
     .step h3 {
-        font-size: 37px;
+        font-size: 38px;
     }
 }
 
@@ -178,14 +178,13 @@
 
 @media(min-width: 600px) {
     .step p {
-        font-size: 20px;
-        margin-top: 10px;
+        font-size: 45px;
     }
 }
 
 @media(min-width: 900px) {
     .step p {
-        font-size: 24px;
+        font-size: 55px;
     }
 }
 
