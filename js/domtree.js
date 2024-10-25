@@ -12,7 +12,6 @@ tree.style.height = height + 'px';
 
 window.addEventListener( 'resize', resize, false );
 
-// The tree
 for( var i = 0; i < quantity; i++ ) {
 	let element = null,
 		type = types[ Math.floor( Math.random() * types.length ) ],
@@ -73,7 +72,6 @@ for( var i = 0; i < quantity; i++ ) {
 	tree.appendChild( element );
 }
 
-// Let it snow
 for( var i = 0; i < 300; i++ ) {
 	let element = document.createElement( 'input' );
 	element.setAttribute( 'type', 'radio' );
