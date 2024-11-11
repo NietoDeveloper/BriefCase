@@ -76,7 +76,7 @@ p, a {
 }
 
 .texto-encabezado h2 {
-  color: var(--gold);
+  color: gainsboro;
   font-size: 38px;
   text-align: center;
 }
