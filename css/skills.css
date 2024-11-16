@@ -108,6 +108,8 @@
 
 .step h1 {
     font-size: 40px;
+    color: blue;
+    margin-top: 15px;
 }
 
 .step h2 {
