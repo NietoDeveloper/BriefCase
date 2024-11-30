@@ -37,8 +37,8 @@ const proyects = () => {
   const nodejs = proyectsArreglo.filter(
     (nodejs) => nodejs.getAttribute("data-proyect") === "nodejs"
   );
-  const java = proyectsArreglo.filter(
-    (java) => java.getAttribute("data-proyect") === "java"
+  const python = proyectsArreglo.filter(
+    (python) => python.getAttribute("data-proyect") === "python"
   );
   const astro = proyectsArreglo.filter(
      (astro) => astro.getAttribute("data-proyect") === "astro" 
