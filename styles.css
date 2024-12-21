@@ -130,7 +130,7 @@ p, a {
   font-size: 28px;
   padding: 8px 40px;
   border: 2px solid var(--scarlet);
-  margin-bottom: 78px;
+  margin-bottom: 80px;
   backdrop-filter: blur(25px);
 }
 
