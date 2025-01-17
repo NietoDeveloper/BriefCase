@@ -77,12 +77,12 @@ p, a {
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 680px) {
   .texto-encabezado h2{
-      font-size: 8rem;
+      font-size: 65px;
   }
 }
 
