@@ -77,7 +77,7 @@ p, a {
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 @media(min-width: 768px) {
