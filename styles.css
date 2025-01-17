@@ -51,7 +51,6 @@ p, a {
 
 .contenido-header {
   position: relative;
-  margin-top: 120px;
 }
 
 .contenido-header::before {
@@ -140,20 +139,8 @@ p, a {
   font-size: 30px;
 }
 
-
-.videos {
-  display: flex;
-  flex-wrap:wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 150px;
-  margin-bottom: 60px;
-}
 video {
-  width: 250px;
-  height: 500px;
-  margin-bottom: 30px;
+
 }
 @media (min-width: 700px) {
   video {
