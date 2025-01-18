@@ -29,7 +29,7 @@ h3 {
   font-family: var(--titulos);
 }
 
-p {
+p, a {
   font-family: var(--parrafos);
 }
 
@@ -78,6 +78,17 @@ p {
   color: gainsboro;
   text-align: center;
   font-size: 45px;
+}
+@media(min-width: 680px) {
+  .texto-encabezado h2{
+      font-size: 65px;
+  }
+}
+
+.texto-encabezado .buttons-header h3{
+  color: blue;
+  margin-top: 40px;
+  font-size: 25px;
 }
 
 @media(min-width: 680px) {
