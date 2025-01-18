@@ -85,6 +85,11 @@ p, a {
   }
 }
 
+.texto-encabezado .buttons-header {
+  align-items: center; 
+  margin-top: 60px;
+}
+
 .texto-encabezado .buttons-header h3{
   color: blue;
   margin-top: 40px;
@@ -92,8 +97,8 @@ p, a {
 }
 
 @media(min-width: 680px) {
-  .texto-encabezado h2{
-      font-size: 65px;
+  .texto-encabezado .buttons-header h3{
+      font-size: 30px;
   }
 }
 
