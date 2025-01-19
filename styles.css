@@ -103,12 +103,12 @@ p, a {
   padding: 20px 30px;
   color: rgb(112, 4, 4);
   margin-top: 15px;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header h3{
-      font-size: 30px;
+      font-size: 32px;
   }
 }
 
