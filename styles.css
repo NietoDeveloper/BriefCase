@@ -100,10 +100,10 @@ p, a {
 
 .texto-encabezado .buttons-header h3{
   margin-bottom: 10px;
-  padding: 20px 30px;
+  padding: 20px 10px;
   color: rgb(112, 4, 4);
   margin-top: 15px;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 @media(min-width: 680px) {
