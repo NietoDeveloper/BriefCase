@@ -6,6 +6,11 @@
     height: 100vh;
     background-color: black;
 }
+@media screen and (min-width: 740px) {
+    .pantalla-dividida {
+        height: 130vh;
+    }
+}
 
 .pantalla-dividida .blackside {
     width: 50%;
@@ -16,6 +21,11 @@
     background-size: cover;
     width: 50%;
     height: 100vh;
+}
+@media screen and (min-width: 740px) {
+    .pantalla-dividida .Aboutpic img {
+        height: 130vh;
+    }
 }
 
 .change {
