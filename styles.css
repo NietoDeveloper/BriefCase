@@ -90,6 +90,16 @@ p, a {
   margin-top: 120px;
   margin-left: 20px;
 }
+@media(min-width: 680px) {
+  .texto-encabezado .buttons-header {
+      margin-top: 180px;
+  }
+}
+@media(min-width: 900px) {
+  .texto-encabezado .buttons-header {
+      margin-top: 230px;
+  }
+}
 
 .texto-encabezado .buttons-header a {
   margin-bottom: 10px;
@@ -105,7 +115,6 @@ p, a {
   margin-top: 5px;
   font-size: 26px;
 }
-
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header h3{
       font-size: 36px;
