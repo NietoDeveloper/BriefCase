@@ -109,7 +109,7 @@ p, a {
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header h3{
       font-size: 36px;
-      padding: 40px 10px;
+      padding: 20px 50px;
   }
 }
 
