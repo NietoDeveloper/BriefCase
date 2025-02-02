@@ -74,6 +74,11 @@ p, a {
   align-items: center;
   justify-content: center;
 }
+@media(min-width: 680px) {
+  .texto-encabezado {
+      margin-top: 170px;
+  }
+}
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
