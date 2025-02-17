@@ -49,9 +49,9 @@ const proyects = () => {
  const nextjs = proyectsArreglo.filter(
   (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
 );
-  mostrarProyects(htmlcssjs, js, react, nodejs, nextjs, python, astro, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, js, react, nodejs, docker, sql, astro, mysql, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, js, react, nodejs, nextjs, python, astro, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, js, react, nodejs, docker, sql, astro, mysql, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
