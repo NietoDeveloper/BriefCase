@@ -9,7 +9,7 @@ const btnTodos = document.querySelector(".all");
 const btnJs = document.querySelector(".js");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
-const btnPython = document.querySelector(".python");
+const btnSQL = document.querySelector(".sql");
 const btnAstro = document.querySelector(".astro");
 const btnMySQL = document.querySelector(".mysql");
 const btnNEXTJS = document.querySelector(".nextjs");
@@ -37,8 +37,8 @@ const proyects = () => {
   const nodejs = proyectsArreglo.filter(
     (nodejs) => nodejs.getAttribute("data-proyect") === "nodejs"
   );
-  const python = proyectsArreglo.filter(
-    (python) => python.getAttribute("data-proyect") === "python"
+  const sql = proyectsArreglo.filter(
+    (sql) => sql.getAttribute("data-proyect") === "sql"
   );
   const astro = proyectsArreglo.filter(
      (astro) => astro.getAttribute("data-proyect") === "astro" 
@@ -74,15 +74,15 @@ const mostrarProyects = (htmlcssjs, js, react, nodejs, nextjs, python, astro, my
   });
   btnPython.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    python.forEach((python) => contenedorProyects.appendChild(python));
-  });
-  btnAstro.addEventListener("click", () => {
-    limpiarHtml(contenedorProyects);
-    astro.forEach((astro) => contenedorProyects.appendChild(astro));
+    sql.forEach((sql) => contenedorProyects.appendChild(sql));
   });
   btnMySQL.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     mysql.forEach((mysql) => contenedorProyects.appendChild(mysql));
+  });
+  btnAstro.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    astro.forEach((astro) => contenedorProyects.appendChild(astro));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
