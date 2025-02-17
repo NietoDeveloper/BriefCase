@@ -9,10 +9,11 @@ const btnTodos = document.querySelector(".all");
 const btnJs = document.querySelector(".js");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
-const btnSql = document.querySelector(".sql");
+const btnSQL = document.querySelector(".sql");
 const btnAstro = document.querySelector(".astro");
+const btmPhyton = document.querySelector(".phyton");
 const btnMySQL = document.querySelector(".mysql");
-const btnNEXTJS = document.querySelector(".nextjs");
+const btnDocker = document.querySelector(".docker");
 const btnHTMLCSSJS = document.querySelector(".htmlcssjs");
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
@@ -43,15 +44,18 @@ const proyects = () => {
   const astro = proyectsArreglo.filter(
      (astro) => astro.getAttribute("data-proyect") === "astro" 
   );
+  const phyton = proyectsArreglo.filter(
+    (phyton) => phyton.getAttribute("data-proyect") === "phyton" 
+ );
   const mysql = proyectsArreglo.filter(
     (mysql) => mysql.getAttribute("data-proyect") === "mysql" 
  );
  const docker = proyectsArreglo.filter(
   (docker) => docker.getAttribute("data-proyect") === "docker" 
 );
-  mostrarProyects(htmlcssjs, js, react, nodejs, docker, sql, astro, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, js, react, nodejs, docker, sql, astro, phyton, mysql, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, js, react, nodejs, docker, sql, astro, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, js, react, nodejs, docker, sql, astro, phyton, mysql, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
@@ -68,9 +72,9 @@ const mostrarProyects = (htmlcssjs, js, react, nodejs, docker, sql, astro, mysql
     limpiarHtml(contenedorProyects);
     nodejs.forEach((nodejs) => contenedorProyects.appendChild(nodejs));
   });
-  btnNEXTJS.addEventListener("click", () => {
+  btnDocker.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    nextjs.forEach((nextjs) => contenedorProyects.appendChild(nextjs));
+    docker.forEach((docker) => contenedorProyects.appendChild(docker));
   });
   btnPython.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
@@ -83,6 +87,10 @@ const mostrarProyects = (htmlcssjs, js, react, nodejs, docker, sql, astro, mysql
   btnAstro.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     astro.forEach((astro) => contenedorProyects.appendChild(astro));
+  });
+  btnPhyton.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    phyton.forEach((phyton) => contenedorProyects.appendChild(phyton));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
