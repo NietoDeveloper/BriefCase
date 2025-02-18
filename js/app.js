@@ -6,15 +6,17 @@ navToggle.addEventListener('click', function() {
 })
 
 const btnTodos = document.querySelector(".all");
+const btnHTMLCSSJS = document.querySelector(".htmlcssjs");
 const btnJs = document.querySelector(".js");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
-const btnSQL = document.querySelector(".sql");
+const btmNextjs = document.querySelector(".nextjs");
 const btnAstro = document.querySelector(".astro");
-const btmPhyton = document.querySelector(".phyton");
+const btnSQL = document.querySelector(".sql");
 const btnMySQL = document.querySelector(".mysql");
+const btnPostgreesql = document.querySelector(".postgreesql")
 const btnDocker = document.querySelector(".docker");
-const btnHTMLCSSJS = document.querySelector(".htmlcssjs");
+
 const contenedorProyects = document.querySelector(".proyects");
 document.addEventListener("DOMContentLoaded", () => {
   proyects();
