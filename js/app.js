@@ -81,6 +81,10 @@ const mostrarProyects = (htmlcssjs, js, react, nodejs, nextjs, astro, sql, mysql
     limpiarHtml(contenedorProyects);
     docker.forEach((docker) => contenedorProyects.appendChild(docker));
   });
+  btnNextjs.addEventListener("click", () => {
+    limpiarHtml(contenedorProyects);
+    nextjs.forEach((nextjs) => contenedorProyects.appendChild(nextjs));
+  });
   btnSql.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     sql.forEach((sql) => contenedorProyects.appendChild(sql));
