@@ -9,7 +9,7 @@ const btnTodos = document.querySelector(".all");
 const btnDocker = document.querySelector(".docker");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
-const btnPython = document.querySelector(".python");
+const btnPostgree = document.querySelector(".postgree");
 const btnSql = document.querySelector(".sql");
 const btnMySQL = document.querySelector(".mysql");
 const btnNEXTJS = document.querySelector(".nextjs");
@@ -37,8 +37,8 @@ const proyects = () => {
   const nodejs = proyectsArreglo.filter(
     (nodejs) => nodejs.getAttribute("data-proyect") === "nodejs"
   );
-  const python = proyectsArreglo.filter(
-    (python) => python.getAttribute("data-proyect") === "python"
+  const postgree = proyectsArreglo.filter(
+    (postgree) => postgree.getAttribute("data-proyect") === "postgree"
   );
   const sql = proyectsArreglo.filter(
      (sql) => sql.getAttribute("data-proyect") === "sql" 
