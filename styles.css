@@ -30,7 +30,7 @@ h3 {
 }
 
 p, a {
-  font-family: var(--parrafos);
+  font-family: var(--titulos);
 }
 
 .foto {

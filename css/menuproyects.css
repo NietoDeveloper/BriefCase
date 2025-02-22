@@ -10,7 +10,7 @@
   margin-bottom: 10px;
   margin-right: 10px;
   height: 60px;
-  width: 110px;
+  width: 145px;
   cursor: pointer;
   background-color: gold;
   text-align: center;
@@ -26,7 +26,7 @@
 @media (min-width: 720px) {
   .botones-proyects button {
     height: 70px;
-    width: 120px;
+    width: 150px;
   }
 }
 
@@ -46,17 +46,18 @@
 
 .botones-proyects button p {
   color: blue;
-  font-size: 18px;
-  margin-top: 5px;
+  font-size: 17px;
+  margin-top: 14px;
 }
 @media (min-width: 720px) {
   .botones-proyects button p {
-    margin-top: 20px;
+    margin-top: 18px;
   }
 }
 .botones-proyects button p:hover {
   color: gold;
   margin-top: 15px;
+  font-size: 18px;
 }
 
 .neon2 {
