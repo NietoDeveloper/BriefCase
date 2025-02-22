@@ -10,7 +10,7 @@ const btnDocker = document.querySelector(".docker");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
 const btnPython = document.querySelector(".python");
-const btnAstro = document.querySelector(".astro");
+const btnSql = document.querySelector(".sql");
 const btnMySQL = document.querySelector(".mysql");
 const btnNEXTJS = document.querySelector(".nextjs");
 const btnHTMLCSSJS = document.querySelector(".htmlcssjs");
@@ -40,8 +40,8 @@ const proyects = () => {
   const python = proyectsArreglo.filter(
     (python) => python.getAttribute("data-proyect") === "python"
   );
-  const astro = proyectsArreglo.filter(
-     (astro) => astro.getAttribute("data-proyect") === "astro" 
+  const sql = proyectsArreglo.filter(
+     (sql) => sql.getAttribute("data-proyect") === "sql" 
   );
   const mysql = proyectsArreglo.filter(
     (mysql) => mysql.getAttribute("data-proyect") === "mysql" 
@@ -49,9 +49,9 @@ const proyects = () => {
  const nextjs = proyectsArreglo.filter(
   (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
 );
-  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, python, astro, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, python, sql, mysql, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, python, astro, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, python, sql, mysql, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
@@ -76,9 +76,9 @@ const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, python, astro
     limpiarHtml(contenedorProyects);
     python.forEach((python) => contenedorProyects.appendChild(python));
   });
-  btnAstro.addEventListener("click", () => {
+  btnSql.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    astro.forEach((astro) => contenedorProyects.appendChild(astro));
+    sql.forEach((sql) => contenedorProyects.appendChild(sql));
   });
   btnMySQL.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
