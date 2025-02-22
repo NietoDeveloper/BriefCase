@@ -6,7 +6,7 @@ navToggle.addEventListener('click', function() {
 })
 
 const btnTodos = document.querySelector(".all");
-const btnJs = document.querySelector(".js");
+const btnDocker = document.querySelector(".docker");
 const btnReact = document.querySelector(".react");
 const btnNodejs = document.querySelector(".nodejs");
 const btnPython = document.querySelector(".python");
@@ -28,8 +28,8 @@ const proyects = () => {
   const htmlcssjs = proyectsArreglo.filter(
     (htmlcssjs) => htmlcssjs.getAttribute("data-proyect") === "htmlcssjs" 
  );
-  const js = proyectsArreglo.filter(
-    (js) => js.getAttribute("data-proyect") === "js"
+  const docker = proyectsArreglo.filter(
+    (docker) => docker.getAttribute("data-proyect") === "docker"
   );
   const react = proyectsArreglo.filter(
     (react) => react.getAttribute("data-proyect") === "react"
@@ -49,16 +49,16 @@ const proyects = () => {
  const nextjs = proyectsArreglo.filter(
   (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
 );
-  mostrarProyects(htmlcssjs, js, react, nodejs, nextjs, python, astro, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, python, astro, mysql, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, js, react, nodejs, nextjs, python, astro, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, python, astro, mysql, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
   });
-  btnJs.addEventListener("click", () => {
+  btnDocker.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    js.forEach((js) => contenedorProyects.appendChild(js));
+    docker.forEach((docker) => contenedorProyects.appendChild(docker));
   });
   btnReact.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
