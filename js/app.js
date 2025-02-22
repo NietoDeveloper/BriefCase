@@ -49,9 +49,9 @@ const proyects = () => {
  const nextjs = proyectsArreglo.filter(
   (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
 );
-  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, python, sql, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, mysql, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, python, sql, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, mysql, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
@@ -72,9 +72,9 @@ const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, python, sql, 
     limpiarHtml(contenedorProyects);
     nextjs.forEach((nextjs) => contenedorProyects.appendChild(nextjs));
   });
-  btnPython.addEventListener("click", () => {
+  btnPostgree.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    python.forEach((python) => contenedorProyects.appendChild(python));
+    postgree.forEach((postgree) => contenedorProyects.appendChild(postgree));
   });
   btnSql.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
