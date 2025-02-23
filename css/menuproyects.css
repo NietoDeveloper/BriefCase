@@ -19,14 +19,14 @@
 }
 .botones-proyects button:hover {
   transition-delay: 0.3s;
-  width: 130px;
+  width: 155px;
   border-color: gold;
 }
 
 @media (min-width: 720px) {
   .botones-proyects button {
     height: 70px;
-    width: 150px;
+    width: 160px;
   }
 }
 
@@ -46,18 +46,24 @@
 
 .botones-proyects button p {
   color: blue;
-  font-size: 17px;
+  font-size: 18px;
   margin-top: 14px;
 }
 @media (min-width: 720px) {
   .botones-proyects button p {
     margin-top: 18px;
+    font-size: 20px;
   }
 }
 .botones-proyects button p:hover {
   color: gold;
-  margin-top: 15px;
-  font-size: 18px;
+  font-size: 20px;
+}
+@media (min-width: 720px) {
+  .botones-proyects button p:hover {
+    margin-top: 18px;
+    font-size: 21px;
+  }
 }
 
 .neon2 {
