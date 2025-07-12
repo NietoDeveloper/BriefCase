@@ -52,7 +52,7 @@ p, a {
 /*video*/
 .contenido-header{
   position: relative;
-  height: 100vh;
+  height: 135vh;
 }
 
 .contenido-header::before{
