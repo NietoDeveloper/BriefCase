@@ -78,7 +78,7 @@ nav {
   color: blue;
   font-size: 17px;
   text-transform: capitalize;
-  letter-spacing: var(--spacing);
+  letter-spacing: 1.5px;
   display: block;
   padding: 5px 5px;
   transition: var(--transition);
