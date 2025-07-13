@@ -1,39 +1,64 @@
 ::-webkit-scrollbar {
-    width: 9px;
-    background-color: hsl(222, 7%, 28%);
+  width: 9px;
+  background-color: hsl(222, 7%, 28%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gold;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: blue;
+}
+
+.pie-pagina {
+  font-size: 14px;
+  margin-top: 100px;
+  background-color: rgb(20, 20, 20);
+  padding: 1rem;
+  color: gainsboro;
+  text-align: center;
+  font-family: var(--parrafos);
+}
+
+.pie-pagina p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+@media(min-width: 450px) {
+  .pie-pagina p {
+    font-size: 16px;
   }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: gold;
-    border-radius: 3px;
+}
+
+@media(min-width: 680px) {
+  .pie-pagina p {
+    font-size: 18px;
   }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: blue;
+}
+
+@media(min-width: 880px) {
+  .pie-pagina p {
+    font-size: 20px;
   }
-  
-  .pie-pagina {
-    font-size: 12px;
-    margin-top: 100px;
-    background-color: rgb(20, 20, 20);
-    padding: 1rem;
-    color: gainsboro;
-    text-align: center;
-    font-family: var(--parrafos);
+}
+
+@media (min-width: 1800px) {
+  .contenedor-piepagina {
+    display: flex;
+    justify-content: space-between;
   }
-  
-  @media (min-width: 1800px) {
-    .contenedor-piepagina {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-  
-  .footer {
-    text-align: center;
-    background-color: var(--oscuro);
-    color: var(--gainsboro);
-    padding: 2rem;
-    font-size: 15px;
-    font-family: var(--titulos);
-  }
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--oscuro);
+  color: var(--gainsboro);
+  padding: 2rem;
+  font-size: 18px;
+  font-family: var(--titulos);
+}
