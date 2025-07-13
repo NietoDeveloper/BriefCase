@@ -58,7 +58,20 @@
   text-align: center;
   background-color: var(--oscuro);
   color: var(--gainsboro);
-  padding: 2rem;
-  font-size: 18px;
+  padding: 20px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
   font-family: var(--titulos);
+}
+.footer h2 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer p {
+  font-size: 15px;
+  margin-top: 20px;
 }
