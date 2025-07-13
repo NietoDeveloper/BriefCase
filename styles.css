@@ -79,6 +79,8 @@ video {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  word-spacing: 4px;
+  letter-spacing: 1.2px;
 }
 @media(min-width: 680px) {
   .texto-encabezado {
@@ -88,7 +90,7 @@ video {
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 36px;
+  font-size: 38px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
