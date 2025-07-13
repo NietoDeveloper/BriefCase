@@ -65,12 +65,12 @@
 }
 
 .footer h2 {
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 10px;
 }
 @media(min-width: 450px) {
   .footer h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
 }
 
@@ -92,7 +92,7 @@
 }
 @media(min-width: 380px) {
   .footer h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 @media(min-width: 450px) {
@@ -109,7 +109,7 @@
 
 @media(min-width: 880px) {
   .footer h3 {
-    font-size: 26px;
+    font-size: 25px;
   }
 }
 
