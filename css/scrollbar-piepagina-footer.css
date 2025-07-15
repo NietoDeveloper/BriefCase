@@ -70,19 +70,19 @@
 }
 @media(min-width: 450px) {
   .footer h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 
 @media(min-width: 680px) {
   .footer h2 {
-    font-size: 32px;
+    font-size: 36px;
   }
 }
 
 @media(min-width: 880px) {
   .footer h2 {
-    font-size: 34px;
+    font-size: 40px;
   }
 }
 
