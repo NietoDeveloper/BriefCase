@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/clients.css">
     <link rel="stylesheet" href="css/clientsmenu.css">
     <link rel="stylesheet" href="styles.css">
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=BAAosFdQiBnXmKfRnMQPflr4M1qT1DoRcpxwnkedvNZk7L3W5xQFV-5Nelr_6mKDZhFIAUQv4aUMEuj8sY&components=hosted-buttons&disable-funding=venmo&currency=USD">
+        </script>
     <title>Clients</title>
 </head>
 
@@ -95,7 +98,7 @@
                     <img src="img-video/nurseweb.png"></a>
                 <h3>Click Image</h3>
             </div>
-             <div class="client">
+            <div class="client">
                 <h3>Accountants Company; Los Angeles, California</h3>
                 <h2>React Node JS API</h2>
                 <p>In construction For Deployment Agosto 30 2025 </p>
@@ -124,6 +127,14 @@
 
     <div class="pie-pagina ">
         <div class="contenedor-piepagina contenedor">
+
+            <div id="paypal-container-JSB45MUU6N8MS"></div>
+            <script>
+                paypal.HostedButtons({
+                    hostedButtonId: "JSB45MUU6N8MS",
+                }).render("#paypal-container-JSB45MUU6N8MS")
+            </script>
+
             <p id="date"></p>
         </div>
     </div>
