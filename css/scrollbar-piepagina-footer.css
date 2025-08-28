@@ -13,12 +13,18 @@
 }
 
 .paypal {
-
+  position: relative;
+  background-color: rgb(20, 20, 20);
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 30px 40px;
+  text-align: center;
+  align-items: center;
+  color: gainsboro;
 }
 .paypal .paypal-container-VNXL96LFDDJBQ{
-
-
   
+  width: 250px;
 }
 
 
