@@ -12,6 +12,14 @@
   background-color: blue;
 }
 
+.paypal {
+  background-color: rgb(20, 20, 20);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  padding: 10px 15%;
+}
+
 .pie-pagina {
   margin-top: 100px;
   background-color: rgb(20, 20, 20);
@@ -20,11 +28,6 @@
   text-align: center;
   align-items: center;
   font-family: var(--parrafos);
-}
-
-.paypal-container-VNXL96LFDDJBQ {
-  text-align: center;
-  align-items: center;
 }
 
 .pie-pagina p {
