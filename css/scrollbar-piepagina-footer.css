@@ -18,7 +18,13 @@
   padding: 1rem;
   color: gainsboro;
   text-align: center;
+  align-items: center;
   font-family: var(--parrafos);
+}
+
+.paypal-container-VNXL96LFDDJBQ {
+  text-align: center;
+  align-items: center;
 }
 
 .pie-pagina p {
