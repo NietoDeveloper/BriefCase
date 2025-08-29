@@ -4,16 +4,6 @@
 
 Welcome to my personal information site! This site serves as an online portfolio and a way to showcase my personal and professional details.
 
-## Table of Contents
-1. [About](#about)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Setup Instructions](#setup-instructions)
-5. [Future Plans](#future-plans)
-6. [Contact](#contact)
-
----
-
 ## About
 
 This website is a hub for:
