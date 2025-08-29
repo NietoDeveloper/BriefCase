@@ -15,16 +15,55 @@
 .paypal {
   position: relative;
   background-color: rgb(20, 20, 20);
-  margin-top: 80px;
-  margin-bottom: 30px;
-  padding: 30px 40px;
+  margin-top: 100px;
+  margin-bottom: -110px;
+  padding: 30px 50px;
   text-align: center;
   align-items: center;
   color: gainsboro;
 }
+@media(min-width: 400px) {
+  .paypal {
+    padding: 32px 70px;
+  }
+}
+@media(min-width: 500px) {
+  .paypal {
+    padding: 32px 100px;
+  }
+}
+@media(min-width: 620px) {
+  .paypal {
+    padding: 32px 170px;
+  }
+}
+@media(min-width: 750px) {
+  .paypal {
+    padding: 32px 210px;
+  }
+}
+@media(min-width: 820px) {
+  .paypal {
+    padding: 32px 260px;
+  }
+}
+@media(min-width: 900px) {
+  .paypal {
+    padding: 32px 320px;
+  }
+}
+@media(min-width: 1050px) {
+  .paypal {
+    padding: 32px 420px;
+  }
+}
+@media(min-width: 1200px) {
+  .paypal {
+    padding: 32px 500px;
+  }
+}
 .paypal .paypal-container-VNXL96LFDDJBQ{
-  
-  width: 250px;
+
 }
 
 
