@@ -1,6 +1,6 @@
-# BriefCase
+# Manuel Nieto BriefCase
 
-# Personal Information Site
+## Personal Information Site
 
 Welcome to my personal information site! This site serves as an online portfolio and a way to showcase my personal and professional details.
 
@@ -36,3 +36,4 @@ To set up the project locally, follow these steps:
 
 ##  Manuel Nieto Software Developer 
 
+ 
