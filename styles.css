@@ -10,10 +10,6 @@
 
 body {
   margin: 0;
-  background-image: url(img-video/Fondo4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   line-height: 1.5;
 }
 
@@ -51,8 +47,13 @@ p, a {
 
 /*video*/
 video {
+position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .contenido-header{
@@ -74,12 +75,12 @@ video {
   position: absolute;
   z-index: 2;
   width: 100%;
-  margin-top: 110px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  word-spacing: 4px;
+  word-spacing: 2px;
   letter-spacing: 1.2px;
 }
 @media(min-width: 680px) {
@@ -90,7 +91,7 @@ video {
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 38px;
+  font-size: 28px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
@@ -100,7 +101,7 @@ video {
 
 .texto-encabezado .buttons-header {
   align-items: flex-start; 
-  margin-top: 150px;
+  margin-top: 100px;
   margin-left: 10px;
 }
 @media(min-width: 680px) {
