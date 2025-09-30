@@ -58,7 +58,7 @@ position: fixed;
 
 .contenido-header{
   position: relative;
-  height: 95vh;
+  height: 100vh;
 }
 
 .contenido-header::before{
@@ -75,27 +75,27 @@ position: fixed;
   position: absolute;
   z-index: 2;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   word-spacing: 2px;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
 }
 @media(min-width: 680px) {
   .texto-encabezado {
-      margin-top: 170px;
+      margin-top: 110px;
   }
 }
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
-      font-size: 46px;
+      font-size: 38px;
   }
 }
 
@@ -106,7 +106,7 @@ position: fixed;
 }
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-      margin-top: 120px;
+      margin-top: 105px;
   }
 }
 @media(min-width: 900px) {
