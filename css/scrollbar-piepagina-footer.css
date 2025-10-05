@@ -13,122 +13,94 @@
 }
 
 .pie-pagina {
-  margin-top: 100px;
-  background-color: rgb(20, 20, 20);
-  padding: 1rem;
-  color: gainsboro;
+  /* Separación del contenido principal */
+  margin-top: 60px;
+  /* Fondo oscuro y moderno */
+  background-color: #121212;
+  /* Relleno para dar espacio */
+  padding: 2.5rem 1rem;
+  /* Color de texto claro y suave */
+  color: #D8D8D8;
+  /* Alineación central */
   text-align: center;
-  align-items: center;
-  font-family: var(--parrafos);
+  /* Fuente base (se usa sans-serif como fallback) */
+  font-family: var(--parrafos, sans-serif);
+  /* Sombra sutil para efecto de elevación */
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .pie-pagina p {
-  font-size: 13px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  /* Tamaño de fuente base */
+  font-size: 0.95rem; 
+  /* Margen vertical compacto */
+  margin: 0.5rem 0; 
+  letter-spacing: 0.8px;
+  word-spacing: 2px;
+  transition: color 0.3s ease;
 }
 
-@media(min-width: 450px) {
+@media (min-width: 768px) {
   .pie-pagina p {
-    font-size: 14px;
+    font-size: 1rem;
   }
 }
 
-@media(min-width: 680px) {
-  .pie-pagina p {
-    font-size: 15px;
-  }
-}
-
-@media(min-width: 880px) {
-  .pie-pagina p {
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 1800px) {
+@media (min-width: 1400px) {
   .contenedor-piepagina {
+    /* Centra el contenido en pantallas muy anchas */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Distribución en columnas */
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contenedor-piepagina > div {
+    text-align: center;
+    padding: 0 1rem;
   }
 }
 
+/* ESTILOS PARA LA CLASE .footer (Si se usa en el mismo pie de página, se recomienda UNIFICAR con .pie-pagina)
+*/
 .footer {
+  background-color: var(--oscuro, #1a1a1a);
+  color: var(--gainsboro, #D8D8D8);
+  /* Más relleno para presencia */
+  padding: 2rem 1.5rem; 
   text-align: center;
-  background-color: var(--oscuro);
-  color: var(--gainsboro);
-  padding: 20px;
+  font-family: var(--titulos, serif);
   letter-spacing: 1.2px;
   word-spacing: 3px;
-  font-family: var(--titulos);
 }
 
 .footer h2 {
-  font-size: 28px;
-  margin-top: 10px;
-}
-@media(min-width: 450px) {
-  .footer h2 {
-    font-size: 32px;
-  }
-}
-
-@media(min-width: 680px) {
-  .footer h2 {
-    font-size: 36px;
-  }
-}
-
-@media(min-width: 880px) {
-  .footer h2 {
-    font-size: 40px;
-  }
+  font-size: 2rem; 
+  margin: 0 0 0.5rem 0;
 }
 
 .footer h3 {
-  font-size: 18px;
-  margin-bottom: 18px;
-}
-@media(min-width: 380px) {
-  .footer h3 {
-    font-size: 19px;
-  }
-}
-@media(min-width: 450px) {
-  .footer h3 {
-    font-size: 21px;
-  }
-}
-
-@media(min-width: 680px) {
-  .footer h3 {
-    font-size: 23px;
-  }
-}
-
-@media(min-width: 880px) {
-  .footer h3 {
-    font-size: 25px;
-  }
+  font-size: 1.25rem; 
+  margin-bottom: 1.5rem;
 }
 
 .footer p {
-  font-size: 18px;
-  margin-top: 16px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  line-height: 1.6;
 }
-@media(min-width: 460px) {
-  .footer p {
-    font-size: 18px;
+
+/* Ajustes de tipografía para pantallas grandes */
+@media (min-width: 880px) {
+  .footer h2 {
+    font-size: 2.5rem;
   }
-}@media(min-width: 680px) {
-  .footer p {
-    font-size: 21px;
+  .footer h3 {
+    font-size: 1.5rem;
   }
-}
-@media(min-width: 880px) {
   .footer p {
-    font-size: 23px;
+    font-size: 1.125rem;
   }
 }
