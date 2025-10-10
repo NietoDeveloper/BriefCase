@@ -22,7 +22,7 @@ This website is a hub for:
 
 - **Frontend:** HTML, CSS, JavaScript, and optionally a framework like React
 - **Hosting:** GitHub Pages.
-- **Other Tools:** FontAwesome for icons, Bootstrap or TailwindCSS for styling.
+- **Other Tools:** 
 
 ## Setup Instructions
 
