@@ -21,7 +21,7 @@ This website is a hub for:
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript, and optionally a framework like React
-- **Hosting:** GitHub Pages, Netlify, or any preferred hosting service.
+- **Hosting:** GitHub Pages.
 - **Other Tools:** FontAwesome for icons, Bootstrap or TailwindCSS for styling.
 
 ## Setup Instructions
