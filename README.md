@@ -22,7 +22,7 @@ This website is a hub for:
 
 - **Frontend:** HTML, CSS, JavaScript, and optionally a framework like React
 - **Hosting:** GitHub Pages.
-- **Other Tools:** 
+- **Other Tools:** Form Pree
 
 ## Setup Instructions
 
