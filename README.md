@@ -30,9 +30,6 @@ This website is a hub for:
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/NietoDeveloper/BriefCase
+   ```bash  git clone https://github.com/NietoDeveloper/BriefCase
 
 ##  Manuel Nieto Software Developer 
-
- 
