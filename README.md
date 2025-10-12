@@ -7,6 +7,7 @@ Welcome to my personal information site! This site serves as an online portfolio
 ## About
 
 This website is a hub for:
+
 - Sharing my professional background, skills, and achievements.
 - Highlighting projects and accomplishments.
 - Providing a central location for networking and contact information.
@@ -20,7 +21,7 @@ This website is a hub for:
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, and optionally a framework like React
+- **Frontend:** HTML, CSS, JavaScript abd API.
 - **Hosting:** GitHub Pages.
 - **Other Tools:** Formpree
 
