@@ -98,6 +98,16 @@ position: fixed;
       font-size: 38px;
   }
 }
+.texto-encabezado h3{
+  color: gainsboro;
+  text-align: center;
+  font-size: 32px;
+}
+@media(min-width: 680px) {
+  .texto-encabezado h2{
+      font-size: 38px;
+  }
+}
 
 .texto-encabezado .buttons-header {
   align-items: flex-start; 
