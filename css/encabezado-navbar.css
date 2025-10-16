@@ -47,6 +47,10 @@ nav {
   box-shadow: var(--light-shadow);
 }
 
+.ranking {
+  
+}
+
 .ranking a {
   text-align: center;
   align-items: center;
