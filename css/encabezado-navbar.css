@@ -47,12 +47,12 @@ nav {
   box-shadow: var(--light-shadow);
 }
 
-.ranking {
+nav .ranking {
   text-align: center;
   align-items: center;
 }
 
-.ranking a {
+nav .ranking a {
   margin-left: 10px;
  
 }
