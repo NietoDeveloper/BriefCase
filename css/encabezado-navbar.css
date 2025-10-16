@@ -48,12 +48,11 @@ nav {
 }
 
 .ranking {
-  
+  text-align: center;
+  align-items: center;
 }
 
 .ranking a {
-  text-align: center;
-  align-items: center;
   margin-left: 50px;
   
 }
