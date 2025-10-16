@@ -88,6 +88,15 @@ position: fixed;
       margin-top: 90px;
   }
 }
+.texto-encabezado h1{
+  color: gainsboro;
+  text-align: center;
+}
+@media(min-width: 680px) {
+  .texto-encabezado h1{
+      font-size: 38px;
+  }
+}
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
