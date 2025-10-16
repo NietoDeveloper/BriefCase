@@ -50,12 +50,13 @@ nav {
 .ranking {
   text-align: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .ranking a {
   margin-bottom: 10px;
   margin-left: 10px;
-  margin-top: 20px;
+ 
 }
 
 .nav-header {
