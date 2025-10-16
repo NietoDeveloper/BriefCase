@@ -46,6 +46,11 @@ nav {
   background: black;
   box-shadow: var(--light-shadow);
 }
+
+.nav .ranking {
+
+}
+
 .nav-header {
   display: flex;
   align-items: center;
