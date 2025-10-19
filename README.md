@@ -10,7 +10,7 @@ This website is a hub for:
 
 - Sharing my professional background, skills, and achievements.
 - Highlighting projects and accomplishments.
-- Providing a central location for networking and contact information.
+- Providing a central location for networking and contact   information.
 
 ## Features
 
@@ -34,4 +34,4 @@ To set up the project locally, follow these steps:
 
 ##  Manuel Nieto Software Developer 
 
-# Nieto Software Developer     2025
+#    2025
