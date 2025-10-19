@@ -21,7 +21,7 @@ This website is a hub for:
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript abd API.
+- **Frontend:** HTML, CSS, JavaScript, API.
 - **Hosting:** GitHub Pages.
 - **Other Tools:** Formpree
 
