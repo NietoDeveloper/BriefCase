@@ -1,6 +1,6 @@
 # Manuel Nieto BriefCase
 
-## Personal Information  And Site
+## Personal Information  And Briefcase Site
 
 Welcome to my personal information site! This site serves as an online portfolio and a way to showcase my personal and professional details.
 
