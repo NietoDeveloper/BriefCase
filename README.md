@@ -27,7 +27,7 @@ This website is a hub for:
 
 ## Setup Instructions
 
-To set up the project locally and :
+To set up the project locally and run youy html.index
 
 1. Clone the repository:
    ```bash  git clone https://github.com/NietoDeveloper/BriefCase
