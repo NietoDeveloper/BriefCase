@@ -27,7 +27,7 @@ This website is a hub for:
 
 ## Setup Instructions
 
-To set up the project locally, follow these steps:
+To set up the project locally and :
 
 1. Clone the repository:
    ```bash  git clone https://github.com/NietoDeveloper/BriefCase
