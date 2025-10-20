@@ -121,7 +121,7 @@ position: fixed;
 
 .texto-encabezado .buttons-header {
   align-items: flex-start; 
-  margin-top: 100px;
+  margin-top: 60px;
   margin-left: 10px;
 }
 @media(min-width: 680px) {
