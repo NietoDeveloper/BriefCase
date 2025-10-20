@@ -111,7 +111,7 @@ position: fixed;
   color: gainsboro;
   text-align: center;
   font-size: 26px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h3{
