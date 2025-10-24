@@ -52,7 +52,7 @@
   transition: color 0.3s ease;
 }
 
-@media (min-width: 710px) {
+@media (min-width: 700px) {
   .pie-pagina p {
     font-size: 18px;
   }
@@ -64,7 +64,7 @@
   padding: 2rem 1.5rem; 
   text-align: center;
   font-family: var(--titulos, serif);
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
   word-spacing: 3px;
 }
 
