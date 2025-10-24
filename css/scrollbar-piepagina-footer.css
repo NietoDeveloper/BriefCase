@@ -45,16 +45,16 @@
 }
 
 .pie-pagina p {
-  font-size: 0.95rem; 
+  font-size: 15px; 
   margin: 0.5rem 0; 
   letter-spacing: 0.8px;
   word-spacing: 2px;
   transition: color 0.3s ease;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 710px) {
   .pie-pagina p {
-    font-size: 1rem;
+    font-size: 18px;
   }
 }
 
