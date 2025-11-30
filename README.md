@@ -32,6 +32,6 @@ To set up the project locally and run youy html.index
 1. Clone the repository:
    ```bash  git clone https://github.com/NietoDeveloper/BriefCase
 
-##  Manuel Nieto Software Developer 
+##  Manuel Nieto Software 
 
 #    2025
