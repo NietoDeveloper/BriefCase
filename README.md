@@ -14,7 +14,7 @@ This website is a hub for:
 
 ## Features
 
-- **Dynamic Resume:** View my work experience, Proyect, skills, and education.
+- **Dynamic Resume:** View my work Experience, Proyect, Skills, and Education.
 - **Projects Showcase:** Explore a portfolio of my recent projects with descriptions and links.
 - **Contact Form:** Reach out to me directly via a contact form.
 - **Responsive Design:** Optimized for viewing on all devices.
