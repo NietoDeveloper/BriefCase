@@ -110,12 +110,12 @@ position: fixed;
 .texto-encabezado h3{
   color: gold;
   text-align: center;
-  font-size: 26px;
+  font-size: 23px;
   margin-top: 10px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h3{
-      font-size: 30px;
+      font-size: 27px;
   }
 }
 
