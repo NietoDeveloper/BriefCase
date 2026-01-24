@@ -107,6 +107,17 @@ position: fixed;
       font-size: 34px;
   }
 }
+
+.texto-encabezado a{
+  text-align: center;
+  margin-top: 15px;
+}
+@media(min-width: 680px) {
+  .texto-encabezado a{
+    margin-top: 20px;
+  }
+}
+
 .texto-encabezado h3{
   color: gold;
   text-align: center;
