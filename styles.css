@@ -85,7 +85,7 @@ position: fixed;
 }
 @media(min-width: 680px) {
   .texto-encabezado {
-      margin-top: 90px;
+      margin-top: 70px;
   }
 }
 .texto-encabezado h1{
