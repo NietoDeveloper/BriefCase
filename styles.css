@@ -101,6 +101,7 @@ position: fixed;
   color: gainsboro;
   text-align: center;
   font-size: 28px;
+  margin-top: 15px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
