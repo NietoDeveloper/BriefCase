@@ -121,12 +121,12 @@ position: fixed;
 
 .texto-encabezado .buttons-header {
   align-items: flex-start; 
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 10px;
 }
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-      margin-top: 60px;
+      margin-top: 70px;
   }
 }
 @media(min-width: 900px) {
