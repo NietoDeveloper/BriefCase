@@ -75,7 +75,7 @@ position: fixed;
   position: absolute;
   z-index: 2;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,11 +100,11 @@ position: fixed;
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
-      font-size: 38px;
+      font-size: 34px;
   }
 }
 .texto-encabezado h3{
