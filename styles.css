@@ -112,11 +112,11 @@ position: fixed;
 
 .texto-encabezado a{
   text-align: center;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 @media(min-width: 680px) {
   .texto-encabezado a{
-    margin-top: 20px;
+    margin-top: 25px;
   }
 }
 
