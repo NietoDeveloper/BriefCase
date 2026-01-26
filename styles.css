@@ -110,7 +110,7 @@ position: fixed;
   }
 }
 
-.texto-encabezado h1{
+.texto-encabezado {
   color: gainsboro;
   text-align: center;
   font-size: 35px;
