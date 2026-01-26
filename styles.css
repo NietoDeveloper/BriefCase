@@ -111,14 +111,12 @@ position: fixed;
 }
 
 .texto-encabezado .committersbadg{
-  display: flex;
-  font-size: 40px; 
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 @media(min-width: 680px) {
   .texto-encabezado .committersbadg{
-    font-size: 50px;
+    
   }
 }
 
