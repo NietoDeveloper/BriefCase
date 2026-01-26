@@ -116,7 +116,7 @@ position: fixed;
   font-size: 35px;
 }
 @media(min-width: 680px) {
-  .texto-encabezado h1{
+  .texto-encabezado {
       font-size: 40px;
   }
 }
