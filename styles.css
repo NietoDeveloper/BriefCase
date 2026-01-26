@@ -120,7 +120,6 @@ position: fixed;
   width: 100%;             /* Asegura que use todo el ancho para centrar */
 }
 
-/* Efecto Hover estilo Tesla para NietoDeveloper */
 .texto-encabezado .committersbadg a {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -143,12 +142,12 @@ position: fixed;
 
 .texto-encabezado .buttons-header {
   align-items: flex-start; 
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 10px;
 }
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-      margin-top: 30px;
+      margin-top: 55px;
   }
 }
 @media(min-width: 900px) {
