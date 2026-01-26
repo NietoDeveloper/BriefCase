@@ -113,16 +113,15 @@ position: fixed;
 .texto-encabezado .committersbadg{
   display: flex;
   text-align: center;
-  font-size: 40px;
-  gap: 5px; 
+  font-size: 40px; 
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin: 40px 0;
+  margin: 25px 0;
 }
 @media(min-width: 680px) {
   .texto-encabezado .committersbadg{
-      font-size: 50px;
+    font-size: 50px;
   }
 }
 
