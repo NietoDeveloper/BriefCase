@@ -102,7 +102,6 @@ position: fixed;
   color: gainsboro;
   text-align: center;
   font-size: 23px;
-  margin-top: 5px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
@@ -114,7 +113,7 @@ position: fixed;
   display: flex;
   justify-content: center; /* Centrado horizontal */
   align-items: center;     /* Centrado vertical */
-  gap: 20px;               /* Espacio uniforme entre los badges */
+  gap: 10px;               /* Espacio uniforme entre los badges */
   flex-wrap: wrap;         /* Si no caben, saltan a la siguiente línea (celulares) */
   margin-top: 50px;
   width: 100%;             /* Asegura que use todo el ancho para centrar */
