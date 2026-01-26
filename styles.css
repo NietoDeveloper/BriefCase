@@ -115,7 +115,7 @@ position: fixed;
   align-items: center;     /* Centrado vertical */
   gap: 5px;               /* Espacio uniforme entre los badges */
   flex-wrap: wrap;         /* Si no caben, saltan a la siguiente línea (celulares) */
-  margin-top: 50px;
+  margin-top: 80px;
   width: 100%;             /* Asegura que use todo el ancho para centrar */
 }
 
