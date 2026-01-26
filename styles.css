@@ -25,8 +25,7 @@ h3 {
   font-family: var(--titulos);
 }
 
-p,
-a {
+p, a {
   font-family: var(--titulos);
 }
 
@@ -48,7 +47,7 @@ a {
 
 /*video*/
 video {
-  position: fixed;
+position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -57,22 +56,22 @@ video {
   z-index: -1;
 }
 
-.contenido-header {
+.contenido-header{
   position: relative;
   height: 100vh;
 }
 
-.contenido-header::before {
+.contenido-header::before{
   content: '';
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0,0,0,.5);
 }
 
-.texto-encabezado {
+.texto-encabezado{
   position: absolute;
   z-index: 2;
   width: 100%;
@@ -84,83 +83,74 @@ video {
   word-spacing: 2px;
   letter-spacing: 1px;
 }
-
 @media(min-width: 680px) {
   .texto-encabezado {
-    margin-top: 85px;
+      margin-top: 85px;
   }
 }
-
-.texto-encabezado h1 {
+.texto-encabezado h1{
   color: gainsboro;
   text-align: center;
   font-size: 35px;
 }
-
 @media(min-width: 680px) {
-  .texto-encabezado h1 {
-    font-size: 40px;
+  .texto-encabezado h1{
+      font-size: 40px;
   }
 }
-
-.texto-encabezado h2 {
+.texto-encabezado h2{
   color: gainsboro;
   text-align: center;
   font-size: 28px;
   margin-top: 15px;
 }
-
 @media(min-width: 680px) {
-  .texto-encabezado h2 {
-    font-size: 34px;
+  .texto-encabezado h2{
+      font-size: 34px;
   }
 }
 
-.texto-encabezado .committersbadg {
+.texto-encabezado .committersbadg{
   display: flex;
   text-align: center;
   font-size: 40px;
-  gap: 15px;
+  gap: 5px; 
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   margin: 20px 0;
 }
-
 @media(min-width: 680px) {
-  .texto-encabezado .committersbadg {
-    font-size: 50px;
+  .texto-encabezado .committersbadg{
+      font-size: 50px;
   }
 }
 
-.texto-encabezado h3 {
+.texto-encabezado h3{
   color: gold;
   text-align: center;
   font-size: 24px;
   margin-top: 10px;
 }
-
 @media(min-width: 680px) {
-  .texto-encabezado h3 {
-    font-size: 28px;
+  .texto-encabezado h3{
+      font-size: 28px;
   }
 }
 
 .texto-encabezado .buttons-header {
-  align-items: flex-start;
+  align-items: flex-start; 
   margin-top: 60px;
   margin-left: 10px;
 }
-
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-    margin-top: 70px;
+      margin-top: 70px;
   }
 }
-
 @media(min-width: 900px) {
   .texto-encabezado .buttons-header {
-    margin-top: 50px;
+      margin-top: 50px;
   }
 }
 
@@ -171,66 +161,57 @@ video {
   border-radius: 10px;
 }
 
-.texto-encabezado .buttons-header h3 {
+.texto-encabezado .buttons-header h3{
   padding: 5px 12px;
   color: rgb(112, 4, 4);
   margin-top: 5px;
   font-size: 24px;
 }
-
 .texto-encabezado .buttons-header h3:hover {
   font-size: 28px;
 }
-
 @media(min-width: 450px) {
-  .texto-encabezado .buttons-header h3 {
-    font-size: 26px;
-    padding: 10px 20px;
+  .texto-encabezado .buttons-header h3{
+      font-size: 26px;
+      padding: 10px 20px;
   }
 }
-
 @media(min-width: 450px) {
   .texto-encabezado .buttons-header h3:hover {
-    font-size: 30px;
+      font-size: 30px;
   }
 }
-
 @media(min-width: 610px) {
-  .texto-encabezado .buttons-header h3 {
-    font-size: 28px;
-    padding: 15px 25px;
+  .texto-encabezado .buttons-header h3{
+      font-size: 28px;
+      padding: 15px 25px;
   }
 }
-
 @media(min-width: 610px) {
   .texto-encabezado .buttons-header h3:hover {
-    font-size: 32px;
+      font-size: 32px;
   }
 }
-
 @media(min-width: 780px) {
-  .texto-encabezado .buttons-header h3 {
-    padding: 15px 30px;
-    font-size: 32px;
+  .texto-encabezado .buttons-header h3{
+      padding: 15px 30px;
+      font-size: 32px;
   }
 }
-
 @media(min-width: 780px) {
   .texto-encabezado .buttons-header h3:hover {
-    font-size: 36px;
+      font-size: 36px;
   }
 }
-
 @media(min-width: 1080px) {
-  .texto-encabezado .buttons-header h3 {
-    padding: 15px 36px;
-    font-size: 36px;
+  .texto-encabezado .buttons-header h3{
+      padding: 15px 36px;
+      font-size: 36px;
   }
 }
-
 @media(min-width: 1080px) {
   .texto-encabezado .buttons-header h3:hover {
-    font-size: 40px;
+      font-size: 40px;
   }
 }
 
@@ -317,99 +298,89 @@ a span:nth-child(1) {
 }
 
 .proyects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 80px;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-@media (min-width: 510px) {
-  .proyects {
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
-}
-
-@media (min-width: 600px) {
-  .proyects {
-    margin-left: 70px;
-    margin-right: 70px;
+  @media (min-width: 510px) {
+    .proyects  {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
   }
-}
-
-@media (min-width: 750px) {
-  .proyects {
-    margin-left: 90px;
-    margin-right: 90px;
+    @media (min-width: 600px) {
+    .proyects  {
+      margin-left: 70px;
+      margin-right: 70px;
+    }
   }
-}
-
-@media (min-width: 900px) {
-  .proyects {
-    margin-left: 120px;
-    margin-right: 120px;
+    @media (min-width: 750px) {
+    .proyects  {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
   }
-}
-
-@media (min-width: 1024px) {
-  .proyects {
-    margin-left: 180px;
-    margin-right: 180px;
+  @media (min-width: 900px) {
+    .proyects  {
+      margin-left: 120px;
+      margin-right: 120px;
+    }
   }
-}
-
-.proyects .proyect {
-  flex: 0 0 calc(25% - 2px);
-  border: 2px solid blue;
-  border-radius: 10px;
-  background-color: transparent;
-  backdrop-filter: blur(100px);
-  margin-top: 5px;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
-.proyects .proyect img {
-  width: 90px;
-  height: 80px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-
-@media (min-width: 500px) {
+  @media (min-width: 1024px) {
+    .proyects  {
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+  }
+  
+  .proyects .proyect {
+    flex: 0 0 calc(25% - 2px);
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
   .proyects .proyect img {
-    width: 95px;
+    width: 90px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
-}
-
-@media (min-width: 650px) {
-  .proyects .proyect img {
-    height: 85px;
+  @media (min-width: 500px) {
+    .proyects .proyect img  {
+      width: 95px;
+    }
   }
-}
-
-@media (min-width: 770px) {
-  .proyects .proyect img {
-    width: 100px;
+  @media (min-width: 650px) {
+    .proyects .proyect img  {
+      height: 85px;
+    }
   }
-}
-
-@media (min-width: 950px) {
-  .proyects .proyect img {
-    height: 95px;
-    width: 105px;
+  @media (min-width: 770px) {
+    .proyects .proyect img  {
+      width: 100px;
+    }
   }
-}
-
-@media (min-width: 1024px) {
-  .proyects .proyect img {
-    height: 100px;
-    width: 120px;
+  @media (min-width: 950px) {
+    .proyects .proyect img {
+      height: 95px;
+      width: 105px;
+    }
   }
-}
+  @media (min-width: 1024px) {
+    .proyects .proyect img {
+      height: 100px;
+      width: 120px;
+    }
+  }
 
 .examples {
   margin-top: 100px;
