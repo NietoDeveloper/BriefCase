@@ -118,7 +118,7 @@ position: fixed;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 @media(min-width: 680px) {
   .texto-encabezado .committersbadg{
