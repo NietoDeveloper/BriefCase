@@ -133,6 +133,7 @@ position: fixed;
   color: gold;
   text-align: center;
   font-size: 24px;
+  margin-top: 15px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h3{
