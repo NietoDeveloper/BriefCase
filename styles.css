@@ -142,17 +142,17 @@ position: fixed;
 
 .texto-encabezado .buttons-header {
   align-items: flex-start; 
-  margin-top: 60px;
+  margin-top: 70px;
   margin-left: 10px;
 }
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-      margin-top: 55px;
+      margin-top: 65px;
   }
 }
 @media(min-width: 900px) {
   .texto-encabezado .buttons-header {
-      margin-top: 50px;
+      margin-top: 60px;
   }
 }
 
