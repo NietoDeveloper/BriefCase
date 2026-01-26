@@ -115,11 +115,6 @@ position: fixed;
   place-items: center;
   margin-top: 30px;
 }
-@media(min-width: 680px) {
-  .texto-encabezado .committersbadg{
-    
-  }
-}
 
 .texto-encabezado h3{
   color: gold;
