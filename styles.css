@@ -75,7 +75,7 @@ position: fixed;
   position: absolute;
   z-index: 2;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,20 +101,18 @@ position: fixed;
 .texto-encabezado h2{
   color: gainsboro;
   text-align: center;
-  font-size: 28px;
+  font-size: 23px;
   margin-top: 15px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h2{
-      font-size: 34px;
+      font-size: 26px;
   }
 }
 
 .texto-encabezado .committersbadg{
   display: flex;
-  text-align: center;
   font-size: 40px; 
-  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   margin: 25px 0;
@@ -129,7 +127,6 @@ position: fixed;
   color: gold;
   text-align: center;
   font-size: 24px;
-  margin-top: 10px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h3{
