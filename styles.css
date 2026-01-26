@@ -116,7 +116,7 @@ position: fixed;
 }
 @media(min-width: 680px) {
   .texto-encabezado .committersbadg{
-      font-size: 40px;
+      font-size: 50px;
   }
 }
 
