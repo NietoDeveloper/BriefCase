@@ -111,6 +111,7 @@ position: fixed;
 }
 
 .texto-encabezado .committersbadg{
+  display: flex;
   text-align: center;
   font-size: 40px;
 }
