@@ -110,6 +110,17 @@ position: fixed;
   }
 }
 
+.texto-encabezado h1{
+  color: gainsboro;
+  text-align: center;
+  font-size: 35px;
+}
+@media(min-width: 680px) {
+  .texto-encabezado h1{
+      font-size: 40px;
+  }
+}
+
 .texto-encabezado a{
   text-align: center;
   margin-top: 20px;
