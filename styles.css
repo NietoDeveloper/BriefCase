@@ -110,10 +110,24 @@ position: fixed;
   }
 }
 
-.texto-encabezado .committersbadg{
-  display: grid;
-  place-items: center;
-  margin-top: 30px;
+.texto-encabezado .committersbadg {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+  gap: 20px;               /* Espacio uniforme entre los badges */
+  flex-wrap: wrap;         /* Si no caben, saltan a la siguiente línea (celulares) */
+  margin-top: 50px;
+  width: 100%;             /* Asegura que use todo el ancho para centrar */
+}
+
+/* Efecto Hover estilo Tesla para NietoDeveloper */
+.texto-encabezado .committersbadg a {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.texto-encabezado .committersbadg a:hover {
+  transform: scale(1.1);   /* Crece un poco al pasar el mouse */
+  filter: brightness(1.2); /* Se ilumina sutilmente */
 }
 
 .texto-encabezado h3{
