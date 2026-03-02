@@ -6,14 +6,6 @@ Bienvenido al repositorio oficial de mi portafolio profesional (**BriefCase**). 
 ## 🛠️ Ecosistema del Proyecto (7 Módulos Core)
 El portafolio está estructurado en 7 secciones independientes totalmente interconectadas:
 
-1.  **Home:** Landing page de alto impacto con métricas en tiempo real.
-2.  **About:** Trayectoria profesional y visión arquitectónica.
-3.  **Clients:** Gestión y vitrina de colaboraciones comerciales.
-4.  **Projects:** Showcase técnico de proyectos activos (**Drone DT**, **Emerald DT**, **NurseWebSite**).
-5.  **Skills:** Matriz de competencias técnicas (Frontend, Backend, DevOps).
-6.  **Contact:** Hub de comunicación integrado con Formspree.
-7.  **S+ Elite Rank:** Sección dedicada a validaciones de rankings globales.
-
 ---
 
 ## 💻 Stack Tecnológico
