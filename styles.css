@@ -109,6 +109,60 @@ position: fixed;
   }
 }
 
+/* Contenedor para centrado y flujo libre */
+.badge-wrapper-nieto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  width: 100%;
+}
+
+/* El enlace: Forzamos comportamiento de bloque y cursor */
+.badge-splus-elite {
+  display: inline-block;
+  cursor: pointer !important; /* Mano obligatoria */
+  text-decoration: none;
+  line-height: 0; /* Elimina espacios extra abajo */
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-tap-highlight-color: transparent; /* Mejora en móviles */
+}
+
+/* La imagen interna: Forzamos que herede el cursor pointer */
+.badge-splus-elite img {
+  display: block;
+  width: auto;
+  cursor: pointer !important; /* Refuerza el puntero sobre la imagen */
+  pointer-events: auto !important; /* Asegura que la imagen reciba el click */
+  border-radius: 4px;
+}
+
+/* Efecto Hover: Agrandamiento y brillo Gold Software DT */
+.badge-splus-elite:hover {
+  transform: scale(1.3) translateY(-10px);
+  filter: drop-shadow(0px 12px 25px rgba(255, 215, 0, 0.8));
+}
+
+/* --- RESPONSIVIDAD 310px A 1900px --- */
+
+/* Pantallas Extra Grandes (Hasta 1900px) */
+@media (min-width: 1200px) {
+  .badge-splus-elite img { height: 65px; }
+}
+
+/* Tablets y Laptops */
+@media (max-width: 1199px) and (min-width: 481px) {
+  .badge-splus-elite img { height: 50px; }
+}
+
+/* Móviles (Desde 310px) */
+@media (max-width: 480px) {
+  .badge-splus-elite img { height: 38px; }
+  .badge-splus-elite:hover {
+    transform: scale(1.15) translateY(-5px);
+  }
+}
+
 .texto-encabezado .committersbadg {
   display: flex;
   justify-content: center; /* Centrado horizontal */
