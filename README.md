@@ -18,8 +18,7 @@ cd BriefCase
 Ejecución:
 Al ser una arquitectura de alto rendimiento basada en Vanilla JS, simplemente abre el archivo index.html en tu navegador o utiliza la extensión Live Server en VS Code.
 
-📬 Contacto & Networking
-GitHub: @NietoDeveloper
+
 
 LinkedIn: Manuel Francisco Nieto Arias
 
