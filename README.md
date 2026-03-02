@@ -12,7 +12,7 @@ This website is a hub for:
 - Highlighting projects and accomplishments.
 - Providing a central location for networking and contact   information.
 
-## Features
+
 
 - **Dynamic Resume:** View my work Experience, Proyect, Skills, and Education.
 - **Projects Showcase:** Explore a portfolio of my recent projects with descriptions and links.
