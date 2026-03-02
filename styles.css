@@ -109,6 +109,10 @@ position: fixed;
   }
 }
 
+.committersbadg  {
+  
+}
+
 .contenedor-badge-elite {
   display: flex;
   justify-content: center;
@@ -174,7 +178,7 @@ position: fixed;
   align-items: center;     /* Centrado vertical */
   gap: 5px;               /* Espacio uniforme entre los badges */
   flex-wrap: wrap;         /* Si no caben, saltan a la siguiente línea (celulares) */
-  margin-top: 80px;
+  margin-top: 20px;
   width: 100%;             /* Asegura que use todo el ancho para centrar */
 }
 
