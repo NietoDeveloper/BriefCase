@@ -64,7 +64,7 @@ This portfolio (**BriefCase**) is a modular system designed under the **Software
 ## ⚙️ Setup & Local Deployment
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/NietoDeveloper/BriefCase.git
 
 # Navigate to directory
