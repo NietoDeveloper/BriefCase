@@ -6,18 +6,7 @@ Bienvenido al repositorio oficial de mi portafolio profesional (**BriefCase**). 
 ## 🛠️ Ecosistema del Proyecto (7 Módulos Core)
 El portafolio está estructurado en 7 secciones independientes totalmente interconectadas:
 
----
 
-## 💻 Stack Tecnológico
-* **Core:** Vanilla JavaScript (ES6+), HTML5, CSS3.
-* **Integraciones:** REST APIs, Formspree (Messaging).
-* **Identidad Visual:** Software DT Design System (Gold, Gainsboro, Black).
-* **Deployment & CI/CD:** GitHub Pages, Vercel, Docker.
-
-
-
-## ⚙️ Instalación y Configuración Local
-Para clonar este ecosistema y ejecutarlo en tu entorno local:
 
 1. **Clonar el repositorio:**
    ```bash
