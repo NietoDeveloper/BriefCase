@@ -85,18 +85,11 @@
 
         <div class="contenedor-encabezado">
 
-            <div class="accesos-perfil-nieto">
-  <a href="https://github.com/NietoDeveloper" target="_blank" class="boton-perfil" rel="noopener noreferrer">
-    <i class="fa-brands fa-github"></i>
-  </a>
-  
-  <a href="https://www.linkedin.com/in/manuelfrancisconietoarias/" target="_blank" class="boton-perfil" rel="noopener noreferrer">
-    <i class="fa-brands fa-linkedin-in"></i>
-  </a>
-</div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <style>
-  /* Contenedor exacto a 15px del borde derecho */
-  .accesos-perfil-nieto {
+  /* Contenedor de accesos directos */
+  .perfil-flotante-nieto {
     position: fixed;
     right: 15px;
     top: 50%;
@@ -104,61 +97,190 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    z-index: 9999;
+    z-index: 10000;
   }
 
-  /* El botón con tu identidad técnica de Software DT */
-  .boton-perfil {
+  /* Estilo del botón circular */
+  .btn-perfil-dt {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 55px;
     height: 55px;
+    background-color: #000000; /* Fondo negro para que resalte el blanco */
     color: #FFFFFF; /* Blanco solicitado */
-    background-color: #000000;
     border: 2px solid #FFFFFF;
     border-radius: 50%;
-    cursor: pointer; /* Mano obligatoria */
     text-decoration: none;
+    cursor: pointer;
     font-size: 26px;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
 
-  /* Efecto Gold solicitado: Movimiento y Agrandamiento */
-  .boton-perfil:hover {
-    color: #FFD700; /* Gold Software DT */
+  /* Efecto Hover solicitado: Movimiento, Agrandamiento y Color Gold */
+  .btn-perfil-dt:hover {
+    color: #FFD700; /* Gold #FFD700 */
     border-color: #FFD700;
-    transform: scale(1.2) translateX(-5px); /* Se agranda y desplaza */
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Brillo Gold */
+    transform: scale(1.2) translateX(-5px); /* Agrandamiento y leve movimiento a la izquierda */
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.6); /* Brillo Gold flotante */
   }
 
-  /* Responsive 310px a 1900px */
-  @media (max-width: 768px) {
-    .boton-perfil {
-      width: 45px;
-      height: 45px;
-      font-size: 22px;
+  /* --- Responsive (310px a 1900px) --- */
+  
+  /* Desktop / Pantallas Grandes */
+  @media (min-width: 1200px) {
+    .btn-perfil-dt {
+      width: 55px;
+      height: 55px;
     }
   }
 
-  @media (max-width: 310px) {
-    .boton-perfil {
-      width: 38px;
-      height: 38px;
-      font-size: 18px;
+  /* Tablets / Pantallas Medianas */
+  @media (max-width: 1199px) and (min-width: 481px) {
+    .btn-perfil-dt {
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
     }
-    .accesos-perfil-nieto {
-      right: 10px;
+  }
+
+  /* Móviles (desde 310px) */
+  @media (max-width: 480px) {
+    .perfil-flotante-nieto {
+      right: 10px; /* Reducimos margen para no estorbar en pantallas pequeñas */
+      gap: 10px;
+    }
+    .btn-perfil-dt {
+      width: 42px;
+      height: 42px;
+      font-size: 20px;
+      border-width: 1.5px;
+    }
+    .btn-perfil-dt:hover {
+      transform: scale(1.1) translateX(-3px); /* Hover más sutil en móvil */
     }
   }
 </style>
+
+<div class="perfil-flotante-nieto">
+  <a href="https://github.com/NietoDeveloper" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="btn-perfil-dt" 
+     title="GitHub #1 Colombia">
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/manuelfrancisconietoarias/" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="btn-perfil-dt" 
+     title="LinkedIn Profesional">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </a>
+</div>
 
 
             <section class="texto-encabezado">
 
                 <h1>Manuel Nieto</h1>
 
-                <h2>Software Engineer - Architecture & Systems Engineering</h2>
+                <h2><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  /* Contenedor de accesos directos */
+  .perfil-flotante-nieto {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10000;
+  }
+
+  /* Estilo del botón circular */
+  .btn-perfil-dt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    background-color: #000000; /* Fondo negro para que resalte el blanco */
+    color: #FFFFFF; /* Blanco solicitado */
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 26px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Efecto Hover solicitado: Movimiento, Agrandamiento y Color Gold */
+  .btn-perfil-dt:hover {
+    color: #FFD700; /* Gold #FFD700 */
+    border-color: #FFD700;
+    transform: scale(1.2) translateX(-5px); /* Agrandamiento y leve movimiento a la izquierda */
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.6); /* Brillo Gold flotante */
+  }
+
+  /* --- Responsive (310px a 1900px) --- */
+  
+  /* Desktop / Pantallas Grandes */
+  @media (min-width: 1200px) {
+    .btn-perfil-dt {
+      width: 55px;
+      height: 55px;
+    }
+  }
+
+  /* Tablets / Pantallas Medianas */
+  @media (max-width: 1199px) and (min-width: 481px) {
+    .btn-perfil-dt {
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+    }
+  }
+
+  /* Móviles (desde 310px) */
+  @media (max-width: 480px) {
+    .perfil-flotante-nieto {
+      right: 10px; /* Reducimos margen para no estorbar en pantallas pequeñas */
+      gap: 10px;
+    }
+    .btn-perfil-dt {
+      width: 42px;
+      height: 42px;
+      font-size: 20px;
+      border-width: 1.5px;
+    }
+    .btn-perfil-dt:hover {
+      transform: scale(1.1) translateX(-3px); /* Hover más sutil en móvil */
+    }
+  }
+</style>
+
+<div class="perfil-flotante-nieto">
+  <a href="https://github.com/NietoDeveloper" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="btn-perfil-dt" 
+     title="GitHub #1 Colombia">
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/manuelfrancisconietoarias/" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="btn-perfil-dt" 
+     title="LinkedIn Profesional">
+    <i class="fa-brands fa-linkedin-in"></i>
+  </a>
+</div>Senior Software Architect | Cloud & Digital Twin Specialist | GitHub #1 Colombia 🇨🇴 | Rank S+ Elite</h2>
 
                 <section class="committersbadg">
 
