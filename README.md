@@ -5,13 +5,6 @@
 Welcome to my personal information site! This site serves as an online portfolio and a way to showcase my personal and professional details.
 
 
-
-
-- **Dynamic Resume:** View my work Experience, Proyect, Skills, and Education.
-- **Projects Showcase:** Explore a portfolio of my recent projects with descriptions and links.
-- **Contact Form:** Reach out to me directly via a contact form.
-- **Responsive Design:** Optimized for viewing on all devices.
-
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript, API.
