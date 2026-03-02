@@ -4,13 +4,6 @@
 
 Welcome to my personal information site! This site serves as an online portfolio and a way to showcase my personal and professional details.
 
-## About
-
-This website is a hub for:
-
-- Sharing my professional background, skills, and achievements.
-- Highlighting projects and accomplishments.
-- Providing a central location for networking and contact   information.
 
 
 
