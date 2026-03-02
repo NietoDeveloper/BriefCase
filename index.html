@@ -94,6 +94,64 @@
     <i class="fa-brands fa-linkedin-in"></i>
   </a>
 </div>
+<style>
+  /* Contenedor exacto a 15px del borde derecho */
+  .accesos-perfil-nieto {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 9999;
+  }
+
+  /* El botón con tu identidad técnica de Software DT */
+  .boton-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    color: #FFFFFF; /* Blanco solicitado */
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer; /* Mano obligatoria */
+    text-decoration: none;
+    font-size: 26px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  /* Efecto Gold solicitado: Movimiento y Agrandamiento */
+  .boton-perfil:hover {
+    color: #FFD700; /* Gold Software DT */
+    border-color: #FFD700;
+    transform: scale(1.2) translateX(-5px); /* Se agranda y desplaza */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Brillo Gold */
+  }
+
+  /* Responsive 310px a 1900px */
+  @media (max-width: 768px) {
+    .boton-perfil {
+      width: 45px;
+      height: 45px;
+      font-size: 22px;
+    }
+  }
+
+  @media (max-width: 310px) {
+    .boton-perfil {
+      width: 38px;
+      height: 38px;
+      font-size: 18px;
+    }
+    .accesos-perfil-nieto {
+      right: 10px;
+    }
+  }
+</style>
 
 
             <section class="texto-encabezado">
