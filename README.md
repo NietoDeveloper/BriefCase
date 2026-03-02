@@ -14,14 +14,7 @@ El portafolio está estructurado en 7 secciones independientes totalmente interc
 * **Identidad Visual:** Software DT Design System (Gold, Gainsboro, Black).
 * **Deployment & CI/CD:** GitHub Pages, Vercel, Docker.
 
----
 
-## 📊 Estadísticas de Élite
-* **Ranking:** #1 en [committers.top/colombia](https://committers.top/colombia#NietoDeveloper).
-* **Sudamérica:** #4 en el ranking general de Latinoamérica.
-* **Badges:** 3 insignias de distinción en desarrollo de software.
-
----
 
 ## ⚙️ Instalación y Configuración Local
 Para clonar este ecosistema y ejecutarlo en tu entorno local:
