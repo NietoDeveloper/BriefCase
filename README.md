@@ -1,14 +1,7 @@
 # 🏆 Manuel Nieto | Senior Software Architect & Full-Stack Engineer
 ### GitHub Rank S+ Elite | #1 Committer in Colombia 🇨🇴
 
-Bienvenido al repositorio oficial de mi portafolio profesional (**BriefCase**). Este sistema ha sido diseñado bajo los estándares de **Software DT**, enfocado en escalabilidad, rendimiento y una experiencia de usuario de clase mundial.
-
-## 🚀 Perfil Profesional
-Soy un Ingeniero de Software Full-Stack especializado en arquitectura **MERN**, con un enfoque en sistemas listos para producción. Mi trabajo integra tecnologías de vanguardia como **Digital Twins**, integraciones de **Cloud Computing (AWS/Docker)** y desarrollo de alto rendimiento con **Next.js** y **Vanilla JS**.
-
-> **"Construyendo sistemas que desafían los límites del desarrollo estándar."**
-
----
+Bienvenido al repositorio oficial de mi portafolio profesional (**BriefCase**). Este sistema ha sido diseñado bajo los estándares de **Software DT**, enfocado en escalabilidad, rendimiento y una 
 
 ## 🛠️ Ecosistema del Proyecto (7 Módulos Core)
 El portafolio está estructurado en 7 secciones independientes totalmente interconectadas:
