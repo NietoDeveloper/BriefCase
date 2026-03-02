@@ -13,12 +13,6 @@ El portafolio está estructurado en 7 secciones independientes totalmente interc
    git clone [https://github.com/NietoDeveloper/BriefCase.git](https://github.com/NietoDeveloper/BriefCase.git)
 Navegar al directorio:
 
-Bash
-cd BriefCase
-Ejecución:
-Al ser una arquitectura de alto rendimiento basada en Vanilla JS, simplemente abre el archivo index.html en tu navegador o utiliza la extensión Live Server en VS Code.
-
-
 
 LinkedIn: Manuel Francisco Nieto Arias
 
