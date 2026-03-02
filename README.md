@@ -1,2 +1,0 @@
-# Manuel Nieto BriefCase   NietoDeveloper
-
