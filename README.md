@@ -19,8 +19,4 @@ Clone the repository:
 
    ```bash  git clone https://github.com/NietoDeveloper/BriefCase
 
-## Manuel Nieto
 
-## NietoDeveloper
-
-### 2025
