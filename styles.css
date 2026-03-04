@@ -206,12 +206,12 @@ position: fixed;
 }
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-      margin-top: 70px;
+      margin-top: px;
   }
 }
 @media(min-width: 900px) {
   .texto-encabezado .buttons-header {
-      margin-top: 80px;
+      margin-top: 70px;
   }
 }
 
