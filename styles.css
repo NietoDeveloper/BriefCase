@@ -206,7 +206,7 @@ position: fixed;
 }
 @media(min-width: 680px) {
   .texto-encabezado .buttons-header {
-      margin-top: px;
+      margin-top: 6px;
   }
 }
 @media(min-width: 900px) {
