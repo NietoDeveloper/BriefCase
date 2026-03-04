@@ -91,7 +91,7 @@ position: fixed;
 .texto-encabezado h1{
   color: gainsboro;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
 }
 @media(min-width: 680px) {
   .texto-encabezado h1{
