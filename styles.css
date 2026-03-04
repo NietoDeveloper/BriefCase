@@ -95,7 +95,7 @@ position: fixed;
 }
 @media(min-width: 680px) {
   .texto-encabezado h1{
-      font-size: 50px;
+      font-size: 45px;
   }
 }
 .texto-encabezado h2{
