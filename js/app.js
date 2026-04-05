@@ -49,9 +49,9 @@ const proyects = () => {
  const nextjs = proyectsArreglo.filter(
   (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
 );
-  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, mysql, proyectsArreglo);
+  mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, typescript, proyectsArreglo);
 };
-const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, mysql, todos) => {
+const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, typescript, todos) => {
   btnHTMLCSSJS.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
     htmlcssjs.forEach((htmlcssjs) => contenedorProyects.appendChild(htmlcssjs));
@@ -82,7 +82,7 @@ const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, postgree, sql
   });
   btnMySQL.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    mysql.forEach((mysql) => contenedorProyects.appendChild(mysql));
+    mysql.forEach((mysql) => contenedorProyects.appendChild(typescript));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
