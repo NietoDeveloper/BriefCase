@@ -82,7 +82,7 @@ const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, postgree, sql
   });
   btnMySQL.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
-    mysql.forEach((mysql) => contenedorProyects.appendChild(typescript));
+    typescript.forEach((typescript) => contenedorProyects.appendChild(typescript));
   });
   btnTodos.addEventListener("click", () => {
     limpiarHtml(contenedorProyects);
