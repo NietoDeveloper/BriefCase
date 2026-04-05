@@ -43,8 +43,8 @@ const proyects = () => {
   const sql = proyectsArreglo.filter(
      (sql) => sql.getAttribute("data-proyect") === "sql" 
   );
-  const mysql = proyectsArreglo.filter(
-    (typescript) => typescript.getAttribute("data-proyect") === "mysql" 
+  const typescript = proyectsArreglo.filter(
+    (typescript) => typescript.getAttribute("data-proyect") === "typescript" 
  );
  const nextjs = proyectsArreglo.filter(
   (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
