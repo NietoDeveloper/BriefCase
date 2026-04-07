@@ -54,18 +54,6 @@ The **Software DT** standard governs all modules in this ecosystem, ensuring con
 **Cloud & DevOps:** AWS (Core)  •  Docker  •  Git / GitHub  •  Vercel (CI/CD)
 
 **Design Identity:** **Software DT System** — Gold `#FFD700`  •  Gainsboro `#DCDCDC`  •  Dark `#000000`
-francisconietoarias/)"\>
-\<img src="[https://img.shields.io/badge/LinkedIn-Manuel\_Nieto-blue?style=for-the-badge\&logo=linkedin](https://img.shields.io/badge/LinkedIn-Manuel_Nieto-blue?style=for-the-badge&logo=linkedin)" alt="LinkedIn" /\>
-\</a\>
-\</div\>
->>>>>>> c968766e82c8fdbdecb73d9a2e3fcfe32ca2f31f
-
------
-
-\<div align="center"\>
-
-**© 2026 Manuel Nieto — Software Engineer ®**
-
-*Designed for the Top 1%  •  Built for Global Scalability.*
+francisc
 
 \</div\>
