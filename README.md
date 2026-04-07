@@ -75,23 +75,7 @@ cd BriefCase
 
 ---
 
-## 📬 Contact & Networking
 
-<div align="left">
-
-<a href="https://github.com/NietoDeveloper">
-  <img src="https://img.shields.io/badge/GitHub-NietoDeveloper-black?style=for-the-badge&logo=github" alt="GitHub" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/manuelfrancisconietoarias/">
-  <img src="https://img.shields.io/badge/LinkedIn-Manuel_Nieto-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://softwaredt.vercel.app/">
-  <img src="https://img.shields.io/badge/Official_Site-Software_DT-FFD700?style=for-the-badge&logo=vercel&logoColor=black" alt="Software DT" />
-</a>
-
-</div>
 
 ---
 
