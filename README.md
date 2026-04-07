@@ -75,56 +75,6 @@ Expert Full-Stack Software Engineer specializing in **MERN Architecture** and hi
 | 06 | [**Video Digital Twin APP**](https://dtv.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | Real-time Industrial Video Monitoring |
 | 07 | [**NurseWebSite**](https://monicaandramunio.netlify.app/) | `Vanilla JS` | 🔵 Live | Healthcare Platform & Portfolio |
 
----
-
-## ⚙️ Tech Stack
-
-<table align="center">
-  <tr>
-    <td align="center"><strong>Backend & Core</strong></td>
-    <td align="center"><strong>Frontend & Styling</strong></td>
-    <td align="center"><strong>Cloud & DevOps</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres" height="50"/></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind" height="50"/></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=aws,docker,vercel,github" height="50"/></td>
-  </tr>
-</table>
-
-**Frontend:** Next.js 15 (App Router) · React · TypeScript · Tailwind CSS · Zustand
-
-**Backend & DB:** Node.js · Express · MongoDB · PostgreSQL · MySQL
-
-**Cloud & DevOps:** AWS EC2/S3/Clusters · Docker · CI/CD · Vercel · Railway · Git
-
----
-
-## ⚡ Technical Identity
-
-- **Performance:** Ranked **#1 in Colombia** among 80,000+ developers — **GitHub Rank S+**
-- **Engineering Focus:** Low-latency Digital Twin dashboards, complex MERN state management, and high-availability AWS/Docker deployments
-- **Architecture:** High-availability double-cluster architecture engineered for maximum scalability and industrial-grade security
-- **Delivery:** 250-day unbroken streak — 10,900+ contributions across 38+ active repositories
-
----
-
-## 📬 Contact & Links
-
-<div align="left">
-
-[![GitHub](https://img.shields.io/badge/GitHub-NietoDeveloper-black?style=for-the-badge&logo=github)](https://github.com/NietoDeveloper)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manuel_Nieto-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/manuelfrancisconietoarias/)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-Software_DT-FFD700?style=for-the-badge&logo=vercel&logoColor=black)](https://softwaredt.vercel.app/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-NietoSoftwareDeveloper-FEB60D?style=for-the-badge&logo=microsoftoutlook&logoColor=black)](mailto:NietoSoftwareDeveloper@outlook.com)
-
-</div>
-
----
-
 <div align="center">
 
 **© 2026 Manuel Nieto — Software Engineer ®**
