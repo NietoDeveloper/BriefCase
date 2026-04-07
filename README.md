@@ -64,15 +64,7 @@ The **Software DT** standard governs all modules in this ecosystem, ensuring con
 | 🥇 **National Rank** | **\#1 Committer** in [committers.top/colombia](https://committers.top/colombia) |
 | 🌎 **Continental Rank** | **\#3** in South & Central America |
 | 🔥 **Activity Level** | **Rank S+** (Top 0.1% Global) |
-| 📈 **Commit History** | 10,900+ contributions in the last cycle |
-
------
-
-## ⚙️ Setup & Local Deployment
-
-```bash
-# Clone the elite-tier repository
-git clone https://github.com/NietoDeveloper/BriefCase.git
+| 📈
 
 # Navigate to directory
 cd BriefCase
