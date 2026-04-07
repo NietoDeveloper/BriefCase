@@ -71,16 +71,4 @@ Expert Full-Stack Software Engineer specializing in **MERN Architecture** and hi
 | 02 | [**Drone DT**](https://dronedt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | E-Commerce & Industrial Store |
 | 03 | [**Drone DT: Dashboard**](https://dronedt.vercel.app/) | `MERN` `TS` `AWS` `Docker` | 🟠 Development | Management System for E-Commerce |
 | 04 | [**Emerald DT**](https://emeralddt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟡 Construction | High-Value Asset Management |
-| 05 | [**Emerald DT: Dashboard**](https://emeralddt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟡 Construction | Management System for E-Commerce |
-| 06 | [**Video Digital Twin APP**](https://dtv.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | Real-time Industrial Video Monitoring |
-| 07 | [**NurseWebSite**](https://monicaandramunio.netlify.app/) | `Vanilla JS` | 🔵 Live | Healthcare Platform & Portfolio |
-
-<div align="center">
-
-**© 2026 Manuel Nieto — Software Engineer ®**
-
-*Designed for the Top 1% · Built for Global Scalability*
-
-**Last Updated: April 2026**
-
-</div>
+| 05 | [**Emerald DT: Dashboard**](https://emeralddt.vercel.app/) | `ME
