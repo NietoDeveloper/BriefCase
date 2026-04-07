@@ -57,11 +57,6 @@ The **Software DT** standard governs all modules in this ecosystem, ensuring con
 francisconietoarias/)"\>
 \<img src="[https://img.shields.io/badge/LinkedIn-Manuel\_Nieto-blue?style=for-the-badge\&logo=linkedin](https://img.shields.io/badge/LinkedIn-Manuel_Nieto-blue?style=for-the-badge&logo=linkedin)" alt="LinkedIn" /\>
 \</a\>
-\&nbsp;
-\<a href="[https://softwaredt.vercel.app/](https://softwaredt.vercel.app/)"\>
-\<img src="[https://img.shields.io/badge/Official\_Site-Software\_DT-FFD700?style=for-the-badge\&logo=vercel\&logoColor=black](https://img.shields.io/badge/Official_Site-Software_DT-FFD700?style=for-the-badge&logo=vercel&logoColor=black)" alt="Software DT" /\>
-\</a\>
-
 \</div\>
 >>>>>>> c968766e82c8fdbdecb73d9a2e3fcfe32ca2f31f
 
