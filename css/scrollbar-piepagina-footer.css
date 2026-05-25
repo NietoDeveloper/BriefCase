@@ -26,6 +26,7 @@
     max-width: 1400px; 
     margin: 0 auto; 
     text-align: center;
+    align-items: center;
 }
 
 @media (min-width: 880px) {
