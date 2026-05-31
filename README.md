@@ -65,8 +65,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 
 <br />
 <table>kend & Core</b></td>
-    <td align="center" width="33%"><b>Frontend & UI</b></td>
-    <td align="center" width="33%"><b>Cloud & DevOps</b></td>
+    <td align="center
   </tr>
   <tr>
     <td align="center">
