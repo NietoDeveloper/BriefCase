@@ -63,7 +63,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 
 | 🔁 Streak | 📦 Repositories | 🛰 Architecture | 🌐 Mode |
 |:---:|:---:|:---:|:---:|
-| **250-day** unbroken | **38+** active | Double-cluster AWS | **Remote · Global** |tal Twin**](https://dtv.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | Real-time Industrial Video Monie** | Healthcare Platform & Portfolio |
+| **250-day** unbroken | **38+** active | Double-cluster AWS | **Remote · Global** |tal Twin**](https://dtv.vercel.app/) | `MERN` `T Healthcare Platform & Portfolio |
 
 <br />
 
