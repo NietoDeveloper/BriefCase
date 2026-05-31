@@ -32,10 +32,7 @@
 
 ## ◈ About
 
-Full-Stack Software Engineer with **6+ years** building production-grade systems at scale. Expert in **MERN architecture**, real-time **Digital Twin** platforms, and ure that lasts. Discipline that never breaks."*
-
-<br />
-
+Full-Stack Software Engineer with **6+ years** buildin
 ---
 
 ## ◈ Live Stats
