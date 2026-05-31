@@ -67,8 +67,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 
 
 ---
-
-|---|--------|---re DT**](https://softwaredt.vercel.app/) | `MongoDB` `React` `Docker` `AWS` | 🟢 **Production** | Core Architecture & Management Hub |
+Architecture & Management Hub |
 | `02` | [**Drone DT**](https://dronedt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | E-Commerce & Industrial Store |
 | `03` | [**Drone DT: Dashboard**](https://dashboarddronedt.vercel.app/) | `MERN` `TS` `AWS` `Docker` | 🟠 Development | Real-time Sales & Inventory Management |
 | `04` | [**Emerald DT**](https://emeralddt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟡 Construction | High-Value Asset Management |
