@@ -66,13 +66,6 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 | **250-day** unbroken | **38+** active | Double-cluster AWS | **Remote · Global** |tal Twin**](https://dtv.vercel.app/) | `MERN` `T Healthcare Platform & Portfolio |
 
 <br />
-
----
-
-## ◈ Stack
-
-<div align="center">
-
 <table>
   <tr>
     <td align="center" width="33%"><b>Backend & Core</b></td>
