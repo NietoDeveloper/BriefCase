@@ -61,9 +61,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 |:---:|:---:|:---:|:---:|
 | [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
 
-| 🔁 Streak | 📦 Repositories | 🛰 Architecture | 🌐 Mode |
-|:---:|:---:|:---:|:---:|
-| **250-day** unbroken | **38+** active | Double-cluster AWS | **Remote · Global** |tal Twin**](https://dtv.vercel.app/) | `MERN` `T Healthcare Platform & Portfolio |
+| 🔁 Streak | 📦 Repositories | 🛰 Architecture | 🌐*](https://dtv.vercel.app/) | `MERN` `T Healthcare Platform & Portfolio |
 
 <br />
 <table>
