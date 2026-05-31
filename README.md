@@ -72,8 +72,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 ---
 
 ## ◈ Digital Twin Ecosystem
-
-> All modules follow the **Software DT** standard — high availability, industrial-grade security, zero-downtime production environments.
+ilability, industrial-grade security, zero-downtime production environments.
 
 | # | Module | Stack | Status | Purpose |
 |---|--------|-------|--------|---------|
