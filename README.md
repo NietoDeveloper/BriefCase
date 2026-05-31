@@ -24,15 +24,4 @@
 
 **`🇨🇴 #1 Colombia`** &nbsp;·&nbsp; **`🌎 #3 South America`** &nbsp;·&nbsp; **`⚡ Top 0.1% Global`**
 
-</div>
-
-<br />
-
----
-
-## ◈ About
-
-Full-Stack Software Engineer with **6+ years** buildin
----
-
 ## ◈ Live Stats
