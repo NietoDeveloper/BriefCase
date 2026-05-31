@@ -60,20 +60,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 | 🥇 National Rank | 🌎 Continental Rank | ⚡ Activity Level | 📈 Contributions |
 |:---:|:---:|:---:|:---:|
 | [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
-
-</table>
-
-</div>
-
-<br />
-
----
-
-## ◈ Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-NietoDeveloper-FFD700?style=for-the-badge&logo=github&logoColor=black&labelColor=000000)](https://github.com/NietoDeveloper)
+hub.com/NietoDeveloper)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Manuel_Nieto-FFD700?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=000000)](https://www.linkedin.com/in/manuelfrancisconietoarias/)
 &nbsp;
