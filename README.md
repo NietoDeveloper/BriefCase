@@ -65,9 +65,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 |:---:|:---:|:---:|:---:|
 | **250-day** unbroken | **38+** active | Double-cluster AWS | **Remote · Global** |
 
-
----
-ArchitectureAWS` `Docker` | 🟠 Development | Real-time Sales & Inventory Management |
+ Sales & Inventory Management |
 | `04` | [**Emerald DT**](https://emeralddt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟡 Construction | High-Value Asset Management |
 | `05` | [**Emerald DT: Dashboard**](https://emeralddt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟡 Construction | Management System for E-Commerce |
 | `06` | [**Video Digital Twin**](https://dtv.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | Real-time Industrial Video Monitoring |
