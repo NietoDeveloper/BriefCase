@@ -41,18 +41,3 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 ---
 
 ## ◈ Live Stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=NietoDeveloper&theme=dark&background=0D0D0D&fire=FFD700&ring=FFD700&currStreakLabel=FEB60D&currStreakNum=DCDCDC&sideLabels=DCDCDC&sideNums=FFD700&dates=888888&border=FFD700&count_private=true&border_radius=12" alt="Daily Streak" width="49%" />
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NietoDeveloper&layout=compact&langs_count=8&title_color=FFD700&icon_color=FEB60D&text_color=DCDCDC&bg_color=0D0D0D&border_color=FFD700&border_radius=12&count_private=true" alt="Top Languages" width="49%" />
-
-</div>
-
-<br />
-
----
-
-## ◈ Metrics
-
-<div align="center">
