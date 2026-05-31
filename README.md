@@ -61,13 +61,6 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 |:---:|:---:|:---:|:---:|
 | [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
 
-| 🔁 Streak | 📦 Repositories | 🛰 Architecture | 🌐*](https://dtv.vercel.app/) | `MERN` `T Healthcare Platform & Portfoliowind</sub>
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=aws,docker,vercel,github&theme=dark" height="48" /><br />
-      <sub>AWS · Docker · Vercel · CI/CD</sub>
-    </td>
-  </tr>
 </table>
 
 </div>
