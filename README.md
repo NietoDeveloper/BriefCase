@@ -32,9 +32,7 @@
 
 ## ◈ About
 
-Full-Stack Software Engineer with **6+ years** building production-grade systems at scale. Expert in **MERN architecture**, real-time **Digital Twin** platforms, and high-availability **AWS/Docker** deployments. Ranked in the top **0.1% of GitHub developers globally (Rank S+)** — consistently delivering systems engineered to perform under the heaviest industrial loads.
-
-> *"Code that scales. Architecture that lasts. Discipline that never breaks."*
+Full-Stack Software Engineer with **6+ years** building production-grade systems at scale. Expert in **MERN architecture**, real-time **Digital Twin** platforms, and ure that lasts. Discipline that never breaks."*
 
 <br />
 
