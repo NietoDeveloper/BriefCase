@@ -64,6 +64,4 @@ hub.com/NietoDeveloper
 <br />
 =0:000000,50:FFD700,100:000000&height=80&section=footer" />
 
-<div align="center">
-<sub><b>© 2026 Manuel Nieto</b> — Built for the Top 1% · Engineered for Global Scale</sub>
-</div>
+<div align="ce
