@@ -13,15 +13,4 @@
 
 <br /><br />
 
-<!-- COMMITTERS BADGES -->
-[![#1 Colombia](https://user-badge.committers.top/colombia/NietoDeveloper.svg)](https://committers.top/colombia#NietoDeveloper)
-&nbsp;
-[![Public](https://user-badge.committers.top/colombia_public/NietoDeveloper.svg)](https://committers.top/colombia#NietoDeveloper)
-&nbsp;
-[![Private](https://user-badge.committers.top/colombia_private/NietoDeveloper.svg)](https://committers.top/colombia#NietoDeveloper)
 
-<br />
-
-**`🇨🇴 #1 Colombia`** &nbsp;·&nbsp; **`🌎 #3 South America`** &nbsp;·&nbsp; **`⚡ Top 0.1% Global`**
-
-## ◈ Live Stats
