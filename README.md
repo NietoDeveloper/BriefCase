@@ -69,9 +69,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 ---
 
 ## ◈ Digital Twin Ecosystem
-ilability, industrial-grade security, zero-downtime production environments.
-
-| # | Module | Stack | Status | Purpose |
+ilability, industrial-grade security, zero-downtim
 |---|--------|-------|--------|---------|
 | `01` | [**Software DT**](https://softwaredt.vercel.app/) | `MongoDB` `React` `Docker` `AWS` | 🟢 **Production** | Core Architecture & Management Hub |
 | `02` | [**Drone DT**](https://dronedt.vercel.app/) | `MERN` `TS` `Docker` `AWS` | 🟠 Development | E-Commerce & Industrial Store |
