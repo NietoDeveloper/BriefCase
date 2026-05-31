@@ -60,13 +60,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 | 🥇 National Rank | 🌎 Continental Rank | ⚡ Activity Level | 📈 Contributions |
 |:---:|:---:|:---:|:---:|
 | [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
-hub.com/NietoDeveloper)
-&nbsp;
-[![LinkedIn](https:/
-[![Email](https://img.shields.io/badge/Email-Contact-FFD700?style=for-the-badge&logo=microsoftoutlook&logoColor=black&labelColor=000000)](mailto:NietoSoftwareDeveloper@outlook.com)
-
-</div>
-
+hub.com/NietoDeveloper
 <br />
 
 <!-- FOOTER WAVE -->
