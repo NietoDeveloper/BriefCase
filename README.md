@@ -59,8 +59,4 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 
 | 🥇 National Rank | 🌎 Continental Rank | ⚡ Activity Level | 📈 Contributions |
 |:---:|:---:|:---:|:---:|
-| [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
-hub.com/NietoDeveloper
-<br />
-=0:000000,50:FFD70
-<div align="ce
+| [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | 
