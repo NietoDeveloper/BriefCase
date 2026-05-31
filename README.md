@@ -62,10 +62,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 | [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
 hub.com/NietoDeveloper)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Manuel_Nieto-FFD700?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=000000)](https://www.linkedin.com/in/manuelfrancisconietoarias/)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-Software_DT-FFD700?style=for-the-badge&logo=vercel&logoColor=black&labelColor=000000)](https://softwaredt.vercel.app/)
-&nbsp;
+[![LinkedIn](https:/
 [![Email](https://img.shields.io/badge/Email-Contact-FFD700?style=for-the-badge&logo=microsoftoutlook&logoColor=black&labelColor=000000)](mailto:NietoSoftwareDeveloper@outlook.com)
 
 </div>
