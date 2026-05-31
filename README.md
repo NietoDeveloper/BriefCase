@@ -56,6 +56,3 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 ## ◈ Metrics
 
 <div align="center">
-
-| 🥇 National Rank | 🌎 Continental Rank | ⚡ Activity Level | 📈 Contributions |
-|:---:|:---:|
