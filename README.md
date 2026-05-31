@@ -65,9 +65,6 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 |:---:|:---:|:---:|:---:|
 | **250-day** unbroken | **38+** active | Double-cluster AWS | **Remote · Global** |
 
-</div>
-
-<br />
 
 ---
 
