@@ -62,9 +62,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 | [**#1 Colombia**](https://committers.top/colombia#NietoDeveloper) | **#3 South America** | **Rank S+** | **10,900+** |
 hub.com/NietoDeveloper
 <br />
-
-<!-- FOOTER WAVE -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FFD700,100:000000&height=80&section=footer" />
+=0:000000,50:FFD700,100:000000&height=80&section=footer" />
 
 <div align="center">
 <sub><b>© 2026 Manuel Nieto</b> — Built for the Top 1% · Engineered for Global Scale</sub>
