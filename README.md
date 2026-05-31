@@ -64,9 +64,7 @@ Full-Stack Software Engineer with **6+ years** building production-grade systems
 | 🔁 Streak | 📦 Repositories | 🛰 Architecture | 🌐*](https://dtv.vercel.app/) | `MERN` `T Healthcare Platform & Portfolio |
 
 <br />
-<table>
-  <tr>
-    <td align="center" width="33%"><b>Backend & Core</b></td>
+<table>kend & Core</b></td>
     <td align="center" width="33%"><b>Frontend & UI</b></td>
     <td align="center" width="33%"><b>Cloud & DevOps</b></td>
   </tr>
