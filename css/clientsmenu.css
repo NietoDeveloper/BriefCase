@@ -1,6 +1,6 @@
 .clients {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 60px 30px;
@@ -17,18 +17,21 @@
   margin-right: 5px;
   margin-left: 20px;
 }
+
 .client:hover {
   box-shadow: 0px 35px 40px black;
   transform: translateY(-5%);
   transition: 0.4s;
 }
+
 .client h2 {
   color: blue;
   font-size: 26px;
-  margin-top:15px;
+  margin-top: 15px;
   letter-spacing: 1.2px;
   word-spacing: 4px;
 }
+
 .client h3 {
   font-size: 21px;
   margin-top: 15px;
@@ -37,6 +40,7 @@
   word-spacing: 4px;
   color: gainsboro;
 }
+
 .client p {
   font-size: 17px;
   margin-left: 8px;
@@ -46,10 +50,12 @@
   letter-spacing: 1.4px;
   color: gainsboro;
 }
+
 .client img {
-width: 200px;
-height: 140px;
+  width: 200px;
+  height: 140px;
 }
+
 .client img:hover {
   width: 215px;
   height: 150px;
