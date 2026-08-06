@@ -65,16 +65,19 @@
     transition: all 400ms ease-out;
     align-items: center;
 }
+
 @media screen and (min-width: 700px) {
     .card-pdf {
         width: 500px;
     }
 }
+
 .card-pdf:hover {
     border: 3px;
     box-shadow: 0px 35px 40px black;
     transform: translateY(-7%);
 }
+
 .card-pdf h1 {
     color: gainsboro;
     text-align: center;
@@ -82,23 +85,27 @@
     margin-top: 5px;
     font-size: 26px;
 }
+
 .card-pdf h3 {
     color: var(--scarlet);
     margin-top: 30px;
     text-align: center;
     font-size: 23px;
 }
+
 .card-pdf h2 {
     color: rgb(0, 255, 0);
     font-size: 50px;
     text-align: center;
     margin-top: 125px;
 }
+
 .card-pdf h2:hover {
     color: blue;
     font-size: 70px;
     margin-top: 110px;
 }
+
 .send {
     border: 2px solid blue;
     cursor: pointer;
