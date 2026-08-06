@@ -167,6 +167,7 @@
     margin: 15px 5px;
     cursor: pointer;
 }
+
 .step h3:hover {
     color: gold;
 }
@@ -200,6 +201,7 @@
     color: blue;
     text-decoration: none;
 }
+
 .step p:hover {
     color: gold;
 }
@@ -358,12 +360,12 @@
     transition-delay: 0.65s;
 }
 
-.copyfield{
+.copyfield {
     display: flex;
     align-items: center;
 }
 
-#link{
+#link {
     align-items: center;
     width: 75%;
     height: 50px;
@@ -374,12 +376,13 @@
     overflow-x: scroll;
     margin-right: 3px;
 }
-#link::-webkit-scrollbar{
+
+#link::-webkit-scrollbar {
     height: 8px;
     border-radius: 2px;
 }
 
-#copy-btn{
+#copy-btn {
     width: 25%;
     height: 55px;
     cursor: pointer;
@@ -388,15 +391,18 @@
     align-items: center;
     background-color: var(--gold);
 }
+
 #copy-btn:hover {
     background-color: var(--scarlet);
     height: 60px;
 }
+
 #copy-btn p {
     color: blue;
     font-size: 18px;
     margin-top: 5px;
 }
+
 #copy-btn p:hover {
     font-size: 20px;
     margin-top: 6px;
