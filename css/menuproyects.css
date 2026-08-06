@@ -17,6 +17,7 @@
   border-color: blue;
   border-radius: 10px;
 }
+
 .botones-proyects button:hover {
   transition-delay: 0.3s;
   width: 155px;
@@ -37,6 +38,7 @@
   margin-bottom: 5px;
   margin-top: 8px;
 }
+
 .botones-proyects button h3:hover {
   font-size: 28px;
   margin-top: 8px;
@@ -49,16 +51,19 @@
   font-size: 18px;
   margin-top: 14px;
 }
+
 @media (min-width: 720px) {
   .botones-proyects button p {
     margin-top: 18px;
     font-size: 20px;
   }
 }
+
 .botones-proyects button p:hover {
   color: gold;
   font-size: 20px;
 }
+
 @media (min-width: 720px) {
   .botones-proyects button p:hover {
     margin-top: 18px;
@@ -151,12 +156,14 @@ a span:nth-child(1) {
   margin-right: 10px;
   margin-top: -20px;
 }
+
 @media (min-width: 700px) {
   .proyects {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
+
 @media (min-width: 1000px) {
   .proyects {
     margin-left: 60px;
