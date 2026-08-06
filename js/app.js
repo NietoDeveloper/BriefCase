@@ -1,8 +1,8 @@
 const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
 
-navToggle.addEventListener('click', function() {
-    links.classList.toggle('show-links');
+navToggle.addEventListener('click', function () {
+  links.classList.toggle('show-links');
 })
 
 const btnTodos = document.querySelector(".all");
@@ -26,8 +26,8 @@ const proyects = () => {
     (proyect) => (proyectsArreglo = [...proyectsArreglo, proyect])
   );
   const htmlcssjs = proyectsArreglo.filter(
-    (htmlcssjs) => htmlcssjs.getAttribute("data-proyect") === "htmlcssjs" 
- );
+    (htmlcssjs) => htmlcssjs.getAttribute("data-proyect") === "htmlcssjs"
+  );
   const docker = proyectsArreglo.filter(
     (docker) => docker.getAttribute("data-proyect") === "docker"
   );
@@ -41,14 +41,14 @@ const proyects = () => {
     (postgree) => postgree.getAttribute("data-proyect") === "postgree"
   );
   const sql = proyectsArreglo.filter(
-     (sql) => sql.getAttribute("data-proyect") === "sql" 
+    (sql) => sql.getAttribute("data-proyect") === "sql"
   );
   const typescript = proyectsArreglo.filter(
-    (typescript) => typescript.getAttribute("data-proyect") === "typescript" 
- );
- const nextjs = proyectsArreglo.filter(
-  (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs" 
-);
+    (typescript) => typescript.getAttribute("data-proyect") === "typescript"
+  );
+  const nextjs = proyectsArreglo.filter(
+    (nextjs) => nextjs.getAttribute("data-proyect") === "nextjs"
+  );
   mostrarProyects(htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, typescript, proyectsArreglo);
 };
 const mostrarProyects = (htmlcssjs, docker, react, nodejs, nextjs, postgree, sql, typescript, todos) => {
