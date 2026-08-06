@@ -42,7 +42,6 @@
     background-color: var(--gold);
     color: var(--blue);
     transform: translateZ(var(--half-btn-height));
-
 }
 
 .hover-side {
