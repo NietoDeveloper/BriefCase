@@ -13,7 +13,12 @@
 }
 
 .pie-pagina {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
   margin-top: 60px;
   background-color: #121212;
   padding: 2.5rem 1rem;
@@ -21,6 +26,20 @@
   text-align: center;
   font-family: var(--parrafos, sans-serif);
   box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#paypal-container-KLXFCB79VUQBY {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+#paypal-container-KLXFCB79VUQBY > div,
+#paypal-container-KLXFCB79VUQBY iframe {
+  margin-inline: auto;
 }
 
 .contenedor-piepagina {
