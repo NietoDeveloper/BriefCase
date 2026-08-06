@@ -6,6 +6,7 @@
     height: 100vh;
     background-color: black;
 }
+
 @media screen and (min-width: 740px) {
     .pantalla-dividida {
         height: 130vh;
@@ -22,6 +23,7 @@
     width: 50%;
     height: 100vh;
 }
+
 @media screen and (min-width: 740px) {
     .pantalla-dividida .Aboutpic img {
         height: 130vh;
@@ -166,6 +168,7 @@
         margin-top: 60px;
     }
 }
+
 @media(min-width: 800px) {
     .step h3 {
         margin-top: 60px;
@@ -251,7 +254,8 @@
     height: 130px;
     align-items: center;
     display: flex;
-    border-radius: 10px;    box-shadow: 4px 4px 12px black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px black;
     display: flex;
     transition: all 400ms ease-out;
 }
