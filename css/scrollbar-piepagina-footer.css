@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-#paypal-container-KLXFCB79VUQBY > div {
+#paypal-container-KLXFCB79VUQBY>div {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -86,17 +86,17 @@
 }
 
 .contenedor-piepagina {
-    max-width: 1400px; 
-    margin: 0 auto; 
-    text-align: center;
-    align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
 }
 
 @media (min-width: 880px) {
   .contenedor-piepagina {
     display: flex;
-    justify-content: space-around; 
-    text-align: left; 
+    justify-content: space-around;
+    text-align: left;
     padding: 0 1rem;
   }
 }
@@ -109,8 +109,8 @@
 }
 
 .pie-pagina p {
-  font-size: 15px; 
-  margin: 0.5rem 0; 
+  font-size: 15px;
+  margin: 0.5rem 0;
   letter-spacing: 0.8px;
   word-spacing: 2px;
   transition: color 0.3s ease;
@@ -125,7 +125,7 @@
 .footer {
   background-color: var(--oscuro, #1a1a1a);
   color: var(--gainsboro, #D8D8D8);
-  padding: 2rem 1.5rem; 
+  padding: 2rem 1.5rem;
   text-align: center;
   font-family: var(--titulos, serif);
   letter-spacing: 1.1px;
@@ -133,12 +133,12 @@
 }
 
 .footer h2 {
-  font-size: 2rem; 
+  font-size: 2rem;
   margin: 0 0 0.5rem 0;
 }
 
 .footer h3 {
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
@@ -152,9 +152,11 @@
   .footer h2 {
     font-size: 2.5rem;
   }
+
   .footer h3 {
     font-size: 1.5rem;
   }
+
   .footer p {
     font-size: 1.125rem;
   }
